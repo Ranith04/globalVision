@@ -44,3 +44,4 @@ dist/
 tmp/
 .cache/
 
+*.mp4
