@@ -1,9 +1,11 @@
-/** @type {import('next').NextConfig} */
+ /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+
   images: {
-    domains: [],
+    domains: [], // Add domains if you use external images
   },
+
   async redirects() {
     return [
       {
@@ -13,34 +15,30 @@ const nextConfig = {
       },
     ];
   },
+
+  async headers() {
+    return [
+      {
+        source: '/(.*)', // Applies to all routes and static files
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'no-cache, no-store, must-revalidate',
+          },
+          {
+            key: 'Pragma',
+            value: 'no-cache',
+          },
+          {
+            key: 'Expires',
+            value: '0',
+          },
+        ],
+      },
+    ];
+  },
+
+  generateEtags: false, // Optional: disables ETag generation
 };
 
-module.exports = nextConfig; 
-key: 'Pragma',
-value: 'no-cache',
-},
-{
-key: 'Expires',
-value: '0',
-},
-],
-},
-];
-},
-// Optional: disable ETag generation
-generateEtags: false,
-};
-headers: [
-  {
-    key: 'Cache-Control',
-    value: 'no-cache, no-store, must-revalidate',
-  },
-  {
-    key: 'Pragma',
-    value: 'no-cache',
-  },
-  {
-    key: 'Expires',
-    value: '0',
-   },
-        ],
+module.exports = nextConfig;
