@@ -12,7 +12,7 @@ export default function GlobalVisaPage() {
         description={"Worldwide visa solutions for travel, work, and migration. Fast, reliable, and expert support for all your global mobility needs."}
         ctaText="Get Visa Assistance"
         ctaHref="#callback-form"
-        backgroundImage="/images/Background-services.jpgimage.png"
+        backgroundImage="/images/Background-services.jpg"
       />
       {/* Gateway Section */}
       <section style={{ background: '#E0E3EA', padding: '60px 0' }}>
