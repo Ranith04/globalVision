@@ -1,7 +1,8 @@
+"use client";
 import React, { useState } from 'react';
 import ContactLeadSection from '../components/ContactLeadSection';
 import Navbar from '../components/Navbar';
-"use client";
+
 
 
 const offshoreTabs = [
