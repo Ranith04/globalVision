@@ -4,7 +4,7 @@ export default function Mission() {
       <div className="main-container card-section mission-card">
         <div className="mission__media">
           <video
-            src="/video/ourmission-1.mp4"
+            src="/video/ourmission.mp4.mp4"
             className="mission-media-video"
             autoPlay
             loop

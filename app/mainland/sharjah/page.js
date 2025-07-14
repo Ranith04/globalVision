@@ -60,7 +60,8 @@ export default function SharjahMainlandPage() {
             {/* Card 1 */}
             <div style={{ background: '#fff', borderRadius: 12, boxShadow: '0 2px 8px rgba(0,0,0,0.04)', padding: 32, flex: '1 1 220px', maxWidth: 270, minWidth: 220, textAlign: 'center' }}>
               <div style={{ fontSize: 32, marginBottom: 16 }}>
-                <svg width="32" height="32" fill="none" viewBox="0 0 24 24"><path d="M4 17l6-6 4 4 6-6" stroke="#1ec6b6" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                {/* Economic Stability: Bar Chart Icon */}
+                <svg width="32" height="32" fill="none" viewBox="0 0 24 24"><rect x="3" y="12" width="4" height="8" fill="#1ec6b6"/><rect x="10" y="8" width="4" height="12" fill="#1ec6b6"/><rect x="17" y="4" width="4" height="16" fill="#1ec6b6"/></svg>
               </div>
               <h3 style={{ fontWeight: 600, fontSize: '1.1rem', marginBottom: 8, fontFamily: 'Georgia, serif' }}>Economic Stability</h3>
               <p style={{ color: '#555', fontSize: 15 }}>
@@ -70,7 +71,8 @@ export default function SharjahMainlandPage() {
             {/* Card 2 */}
             <div style={{ background: '#fff', borderRadius: 12, boxShadow: '0 2px 8px rgba(0,0,0,0.04)', padding: 32, flex: '1 1 220px', maxWidth: 270, minWidth: 220, textAlign: 'center' }}>
               <div style={{ fontSize: 32, marginBottom: 16 }}>
-                <svg width="32" height="32" fill="none" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V7a8 8 0 1 0-16 0v5c0 6 8 10 8 10z" stroke="#1ec6b6" strokeWidth="2"/></svg>
+                {/* Strategic Infrastructure: Network/Globe Icon */}
+                <svg width="32" height="32" fill="none" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" stroke="#1ec6b6" strokeWidth="2"/><path d="M2 12h20M12 2c2.5 3.5 2.5 14.5 0 20M12 2c-2.5 3.5-2.5 14.5 0 20" stroke="#1ec6b6" strokeWidth="2"/></svg>
               </div>
               <h3 style={{ fontWeight: 600, fontSize: '1.1rem', marginBottom: 8, fontFamily: 'Georgia, serif' }}>Strategic Infrastructure</h3>
               <p style={{ color: '#555', fontSize: 15 }}>
@@ -80,7 +82,8 @@ export default function SharjahMainlandPage() {
             {/* Card 3 */}
             <div style={{ background: '#fff', borderRadius: 12, boxShadow: '0 2px 8px rgba(0,0,0,0.04)', padding: 32, flex: '1 1 220px', maxWidth: 270, minWidth: 220, textAlign: 'center' }}>
               <div style={{ fontSize: 32, marginBottom: 16 }}>
-                <svg width="32" height="32" fill="none" viewBox="0 0 24 24"><text x="6" y="22" fontSize="20" fontWeight="bold" fill="#1ec6b6">$</text></svg>
+                {/* Business Friendly: Handshake Icon */}
+                <svg width="32" height="32" fill="none" viewBox="0 0 24 24"><path d="M2 17l5-5 5 5 5-5 5 5" stroke="#1ec6b6" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/><circle cx="12" cy="12" r="2" fill="#1ec6b6"/></svg>
               </div>
               <h3 style={{ fontWeight: 600, fontSize: '1.1rem', marginBottom: 8, fontFamily: 'Georgia, serif' }}>Business Friendly</h3>
               <p style={{ color: '#555', fontSize: 15 }}>
@@ -90,7 +93,8 @@ export default function SharjahMainlandPage() {
             {/* Card 4 */}
             <div style={{ background: '#fff', borderRadius: 12, boxShadow: '0 2px 8px rgba(0,0,0,0.04)', padding: 32, flex: '1 1 220px', maxWidth: 270, minWidth: 220, textAlign: 'center' }}>
               <div style={{ fontSize: 32, marginBottom: 16 }}>
-                <svg width="32" height="32" fill="none" viewBox="0 0 24 24"><circle cx="16" cy="8" r="2" stroke="#1ec6b6" strokeWidth="2"/><path d="M12 22s8-4 8-10V7a8 8 0 1 0-16 0v5c0 6 8 10 8 10z" stroke="#1ec6b6" strokeWidth="2"/></svg>
+                {/* Tax Benefits: Shield/Check Icon */}
+                <svg width="32" height="32" fill="none" viewBox="0 0 24 24"><path d="M12 3l7 4v5c0 5-3.5 9-7 9s-7-4-7-9V7l7-4z" stroke="#1ec6b6" strokeWidth="2"/><path d="M9 14l2 2 4-4" stroke="#1ec6b6" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
               </div>
               <h3 style={{ fontWeight: 600, fontSize: '1.1rem', marginBottom: 8, fontFamily: 'Georgia, serif' }}>Tax Benefits</h3>
               <p style={{ color: '#555', fontSize: 15 }}>
@@ -215,7 +219,7 @@ export default function SharjahMainlandPage() {
             </div>
           </div>
           <div style={{ flex: '1 1 340px', minWidth: 300, maxWidth: 420, display: 'flex', justifyContent: 'center' }}>
-            <img src="/images/sharjah-m1.jpg" alt="Sharjah Process" style={{ width: '100%', borderRadius: 18, objectFit: 'cover', maxHeight: 340 }} />
+            <img src="/images/sharjah-m1.jpg" alt="Sharjah Process" style={{ width: '100%', borderRadius: 18, objectFit: 'cover', maxHeight: 450, marginTop: 90 }} />
           </div>
         </div>
       </section>
@@ -421,7 +425,7 @@ export default function SharjahMainlandPage() {
           <div style={{ flex: '1 1 200px', minWidth: 200, marginBottom: 32 }}>
             <div style={{ fontWeight: 700, color: '#fff', marginBottom: 12 }}>Contact Info</div>
             <div style={{ color: '#e5e7eb', marginBottom: 6 }}>Al Majaz Tower, Sharjah, UAE</div>
-            <div style={{ color: '#e5e7eb', marginBottom: 6 }}>+971 6 123 4567</div>
+            <div style={{ color: '#e5e7eb', marginBottom: 6 }}>+971 50 419 3507</div>
             <div style={{ color: '#e5e7eb' }}>sharjah@globalvisionservices.com</div>
           </div>
         </div>

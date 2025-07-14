@@ -443,7 +443,7 @@ export default function FujairahMainlandPage() {
           <div style={{ flex: '1 1 200px', minWidth: 200, marginBottom: 32 }}>
             <div style={{ fontWeight: 700, color: '#fff', marginBottom: 12 }}>Contact Info</div>
             <div style={{ color: '#e5e7eb', marginBottom: 6 }}>Fujairah Tower, Fujairah, UAE</div>
-            <div style={{ color: '#e5e7eb', marginBottom: 6 }}>+971 9 123 4567</div>
+            <div style={{ color: '#e5e7eb', marginBottom: 6 }}>+971 50 419 3507</div>
             <div style={{ color: '#e5e7eb' }}>fujairah@globalvisionservices.com</div>
           </div>
         </div>

@@ -15,7 +15,7 @@ export default function DubaiOffshorePage() {
         backgroundImage="/images/Background-services.jpg"
       />
       {/* Section 2: White background, left text, right image */}
-      <section style={{ background: '#fff', padding: '80px 0 80px 0' }}>
+      <section style={{ background: '#e6fcfa', padding: '80px 0 80px 0' }}>
         <div style={{ maxWidth: 1200, margin: '0 auto', padding: '0 32px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', minHeight: 340 }}>
           {/* Left: Title, subtitle, buttons */}
           <div style={{ flex: 1, minWidth: 320, maxWidth: 520, display: 'flex', flexDirection: 'column', justifyContent: 'center', height: '100%' }}>
@@ -280,7 +280,7 @@ export default function DubaiOffshorePage() {
           <div style={{ flex: '1 1 200px', minWidth: 200, marginBottom: 32 }}>
             <div style={{ fontWeight: 700, color: '#fff', marginBottom: 12 }}>Contact Info</div>
             <div style={{ color: '#e5e7eb', marginBottom: 6 }}>Business Bay Tower, Dubai, UAE</div>
-            <div style={{ color: '#e5e7eb', marginBottom: 6 }}>+971 4 123 4567</div>
+            <div style={{ color: '#e5e7eb', marginBottom: 6 }}>+971 50 419 3507</div>
             <div style={{ color: '#e5e7eb' }}>info@www.globalvisionuae.com@/app</div>
           </div>
         </div>

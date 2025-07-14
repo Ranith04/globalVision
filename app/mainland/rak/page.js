@@ -444,7 +444,7 @@ export default function RAKMainlandPage() {
           <div style={{ flex: '1 1 200px', minWidth: 200, marginBottom: 32 }}>
             <div style={{ fontWeight: 700, color: '#fff', marginBottom: 12 }}>Contact Info</div>
             <div style={{ color: '#e5e7eb', marginBottom: 6 }}>RAK Tower, Ras Al Khaimah, UAE</div>
-            <div style={{ color: '#e5e7eb', marginBottom: 6 }}>+971 7 123 4567</div>
+            <div style={{ color: '#e5e7eb', marginBottom: 6 }}>+971 50 419 3507</div>
             <div style={{ color: '#e5e7eb' }}>rak@globalvisionservices.com</div>
           </div>
         </div>

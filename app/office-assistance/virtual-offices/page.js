@@ -169,7 +169,7 @@ export default function VirtualOfficesPage() {
             Book your virtual office in Dubai today and establish your business presence
           </p>
           <div style={{ display: 'flex', justifyContent: 'center', gap: 18, alignItems: 'center', color: '#fff', fontSize: 16, marginBottom: 28, fontFamily: 'Montserrat, Arial, sans-serif' }}>
-            <span>+971 50 483 6190</span>
+            <span>+971 50 419 3507</span>
             <span style={{ fontSize: 18, color: '#fff' }}>•</span>
             <span>dubai@globalvisionservices.com</span>
           </div>
@@ -211,7 +211,7 @@ export default function VirtualOfficesPage() {
           <div style={{ flex: '1 1 200px', minWidth: 200, marginBottom: 32 }}>
             <div style={{ fontWeight: 700, color: '#fff', marginBottom: 12 }}>Contact Info</div>
             <div style={{ color: '#e5e7eb', marginBottom: 6 }}>Business Bay Tower, Dubai, UAE</div>
-            <div style={{ color: '#e5e7eb', marginBottom: 6 }}>+971 4 123 4567</div>
+            <div style={{ color: '#e5e7eb', marginBottom: 6 }}>+971 50 419 3507</div>
             <div style={{ color: '#e5e7eb' }}>dubai@globalvisionservices.com</div>
           </div>
         </div>

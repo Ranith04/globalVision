@@ -172,7 +172,7 @@ export default function SharedOfficesPage() {
           <div style={{ flex: 1, minWidth: 220 }}>
             <div style={{ fontWeight: 600, marginBottom: 8 }}>Contact Us</div>
             <div>Office 101, Business Bay Tower, Dubai, UAE</div>
-            <div>+971 4 123 4567</div>
+            <div>+971 50 419 3507</div>
             <div>dubai@globalvisionsvcs.com</div>
           </div>
         </div>

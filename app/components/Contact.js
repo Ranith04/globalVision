@@ -51,7 +51,7 @@ export default function Contact() {
           <ul className="contact__info-list">
             <li><FaMapMarkerAlt className="contact__icon" />205, Ontario Tower, Business Bay</li>
             <li><FaPhoneAlt className="contact__icon" />Phone: +9714 579 3444</li>
-            <li><FaMobileAlt className="contact__icon" />Mobile: +971 52 123 4462</li>
+            <li><FaMobileAlt className="contact__icon" />Mobile: +971 50 419 3507</li>
             <li><FaEnvelope className="contact__icon" />Email: info@www.globalvisionuae.com</li>
           </ul>
           <div className="contact__socials">

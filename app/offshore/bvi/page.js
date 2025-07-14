@@ -15,7 +15,7 @@ export default function BVIPage() {
          backgroundImage="/images/Background-services.jpg"
       />
       {/* Section 2: White background, left text, right image */}
-      <section style={{ background: '#fff', padding: '80px 0 80px 0' }}>
+      <section style={{ background: '#e6fcfa', padding: '80px 0 80px 0' }}>
         <div style={{ maxWidth: 1200, margin: '0 auto', padding: '0 32px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', minHeight: 340 }}>
           {/* Left: Title, subtitle, feature pills, buttons */}
           <div style={{ flex: 1, minWidth: 320, maxWidth: 520, display: 'flex', flexDirection: 'column', justifyContent: 'center', height: '100%' }}>

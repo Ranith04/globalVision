@@ -1063,8 +1063,8 @@ ul {
 }
 .about-badge-wide {
   position: absolute;
-  bottom: 24px;
-  right: 24px;
+  bottom: -24px;
+  right: -24px;
   background: #159e91;
   color: #fff;
   padding: 22px 32px 14px 32px;

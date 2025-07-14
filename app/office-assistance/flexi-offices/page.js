@@ -16,7 +16,7 @@ export default function FlexiOfficesPage() {
       />
        
       {/* Flexi Desk Section */}
-      <section style={{ background: '#fff', padding: '56px 0 56px 0' }}>
+      <section style={{ background: '#e6fcfa', padding: '56px 0 56px 0' }}>
         <div style={{ maxWidth: 1100, margin: '0 auto', padding: '0 32px', display: 'flex', alignItems: 'center', gap: 32, flexWrap: 'wrap' }}>
           {/* Left: Heading, features, buttons */}
           <div style={{ flex: 1, minWidth: 320, maxWidth: 540, display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
@@ -193,7 +193,7 @@ export default function FlexiOfficesPage() {
             Get your flexi desk in Dubai and meet UAE business registration requirements
           </div>
           <div style={{ color: '#fff', fontSize: 16, fontFamily: 'Montserrat, Arial, sans-serif', marginBottom: 18 }}>
-            +971 4 8872760 &nbsp; | &nbsp; dubai@globalvisionservices.com
+            +971 50 419 3507 &nbsp; | &nbsp; dubai@globalvisionservices.com
           </div>
           <a href="#contact" style={{ background: '#fff', color: '#19c39c', padding: '11px 28px', borderRadius: 30, fontWeight: 700, fontSize: '1rem', textDecoration: 'none', display: 'inline-block', border: 'none', boxShadow: '0 2px 8px rgba(16,185,129,0.10)' }}>Contact Expert Consultants</a>
         </div>

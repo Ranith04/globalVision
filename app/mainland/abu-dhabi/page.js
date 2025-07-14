@@ -8,7 +8,7 @@ export default function AbuDhabiMainlandPage() {
   return (
     <>
       <Navbar />
-      <section className="hero-section" style={{ position: 'relative', minHeight: '100vh', padding: 0 }}>
+      <section className="hero-section" style={{ position: 'relative', minHeight: '100vh', padding: 0, background: 'linear-gradient(120deg, #0f9d8f 0%, #0e3c5d 100%)' }}>
        {/* Background Image under gradient */}
        <img
           src="/images/Background-services.jpg"
@@ -25,15 +25,15 @@ export default function AbuDhabiMainlandPage() {
             pointerEvents: 'none',
           }}
         />
-        {/* Overlay */}
+        {/* Overlay (optional cityscape image) */}
         <div style={{
           position: 'absolute',
           top: 0,
           left: 0,
           width: '100vw',
           height: '100vh',
-          background: 'linear-gradient(120deg, rgba(32, 102, 108, 0.7) 60%, rgba(30,198,182,0.3) 100%)',
-           
+          background: 'url(/images/hero-bg.jpg) center/cover no-repeat',
+          opacity: 0.25,
           zIndex: 1
         }} />
         <div className="hero-content-wrapper" style={{ position: 'relative', zIndex: 3 }}>
@@ -449,7 +449,7 @@ export default function AbuDhabiMainlandPage() {
           <div style={{ flex: '1 1 200px', minWidth: 200, marginBottom: 32 }}>
             <div style={{ fontWeight: 700, color: '#fff', marginBottom: 12 }}>Contact Info</div>
             <div style={{ color: '#e5e7eb', marginBottom: 6 }}>Business Bay Tower, Abu Dhabi, UAE</div>
-            <div style={{ color: '#e5e7eb', marginBottom: 6 }}>+971 2 123 4567</div>
+            <div style={{ color: '#e5e7eb', marginBottom: 6 }}>+971 50 419 3507</div>
             <div style={{ color: '#e5e7eb' }}>abudhabi@globalvisionservices.com</div>
           </div>
         </div>

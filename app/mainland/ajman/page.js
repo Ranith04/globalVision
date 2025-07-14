@@ -447,7 +447,7 @@ export default function AjmanMainlandPage() {
           <div style={{ flex: '1 1 200px', minWidth: 200, marginBottom: 32 }}>
             <div style={{ fontWeight: 700, color: '#fff', marginBottom: 12 }}>Contact Info</div>
             <div style={{ color: '#e5e7eb', marginBottom: 6 }}>Ajman Tower, Ajman, UAE</div>
-            <div style={{ color: '#e5e7eb', marginBottom: 6 }}>+971 6 123 4567</div>
+            <div style={{ color: '#e5e7eb', marginBottom: 6 }}>+971 50 419 3507</div>
             <div style={{ color: '#e5e7eb' }}>ajman@globalvisionservices.com</div>
           </div>
         </div>

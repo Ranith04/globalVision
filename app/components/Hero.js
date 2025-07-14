@@ -61,7 +61,7 @@ export default function Hero() {
       {/* Background Video */}
       <video
         className="hero-video-bg"
-        src="/video/1.mp4"
+        src="/video/dubai_background.mp4.mp4"
         autoPlay
         loop
         muted
