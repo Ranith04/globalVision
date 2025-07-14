@@ -240,7 +240,7 @@ export default function GlobalVisaPage() {
         {/* Right: Image */}
         <div style={{ flex: '1 1 420px', minWidth: 320, maxWidth: 540, display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '0 48px' }}>
           {/* Replace src with your uploaded image */}
-          <img src="/images/Global Visa Assistance (1).png" alt="Passport and Map" style={{ width: '100%', maxWidth: 470, height: 260, objectFit: 'cover', borderRadius: 20, boxShadow: '0 2px 18px rgba(30,198,182,0.13)' }} />
+          <img src="/images/Global Visa Assistance (1).png" alt="Passport and Map" style={{ width: '100%', maxWidth: 470, height: 400, objectFit: 'cover', borderRadius: 20, boxShadow: '0 2px 18px rgba(30,198,182,0.13)' }} />
         </div>
       </section>
       

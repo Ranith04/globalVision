@@ -51,7 +51,7 @@ export default function CoworkingSpacesPage() {
           {/* Right: Image Card */}
           <div style={{ flex: 1, minWidth: 320, maxWidth: 420, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
             <div style={{ background: '#fff', borderRadius: 16, boxShadow: '0 2px 16px rgba(30,198,182,0.10)', padding: 0, width: 340, maxWidth: '100%' }}>
-              <img src="/images/coworking-2.jpg" alt="Coworking Space Dubai" style={{ width: 440, height: 220, borderRadius: 16, objectFit: 'cover' }} />
+              <img src="/images/coworking2.jpg" alt="Coworking Space Dubai" style={{ width: 440, height: 220, borderRadius: 16, objectFit: 'cover' }} />
             </div>
           </div>
         </div>

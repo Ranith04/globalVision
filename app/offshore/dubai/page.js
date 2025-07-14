@@ -99,7 +99,7 @@ export default function DubaiOffshorePage() {
         <div style={{ maxWidth: 1100, margin: '0 auto', padding: '0 32px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap' }}>
           {/* Left: Image */}
           <div style={{ flex: 1, minWidth: 320, maxWidth: 420, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-            <img src="/images/dubai-offshore-2.avif" alt="Dubai Offshore" style={{ width: 440, height: 260, objectFit: 'cover', borderRadius: 18, boxShadow: '0 2px 12px rgba(30,198,182,0.13)' }} />
+            <img src="/images/dubai-offshore-2.avif" alt="Dubai Offshore" style={{ width: 550, height: 380, objectFit: 'cover', borderRadius: 18, boxShadow: '0 2px 12px rgba(30,198,182,0.13)' }} />
           </div>
           {/* Right: Text */}
           <div style={{ flex: 2, minWidth: 320, maxWidth: 600, color: '#fff', paddingLeft: 40, display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
