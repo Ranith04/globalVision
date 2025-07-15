@@ -21,7 +21,7 @@ export default function GlobalVisaPage() {
             <h2 style={{ fontSize: '2.8rem', fontWeight: 700, marginBottom: 18, color: '#179e9e' }}>Global Visa Assistance</h2>
           </div>
           <div style={{ flex: 1, minWidth: 500, maxWidth: 500, padding: '12px' }}>
-            <img src="/images/Background+Border+Shadow (2).png" alt="Passport and Visa Ticket" style={{ borderRadius: 16, width: '100%', height: 'auto' }} />
+            <img src="/images/Background-Border-Shadow-2.png" alt="Passport and Visa Ticket" style={{ borderRadius: 16, width: '100%', height: 'auto' }} />
           </div>
         </div>
       </section>
