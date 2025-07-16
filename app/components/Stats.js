@@ -12,8 +12,8 @@ export default function Stats() {
           <span className="stats__label">Expert Architects</span>
         </div>
         <div className="stats__item">
-          <span className="stats__number">15+</span>
-          <span className="stats__label">Years Experience</span>
+          <span className="stats__number">10+</span>
+          <span className="stats__label">Year Experience</span>
         </div>
       </div>
     </section>

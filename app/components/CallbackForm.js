@@ -51,7 +51,7 @@ export default function CallbackForm() {
 
   return (
     <div className="callback-form-container">
-      <h2 className="callback-title">Find Out How</h2>
+      <h2 className="callback-title">Request A Call</h2>
       <form onSubmit={handleSubmit}>
         <div className="form-field clean-form-field" style={{ marginBottom: 4 }}>
           <label className="clean-form-label">Name</label>

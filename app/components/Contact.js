@@ -49,7 +49,7 @@ export default function Contact() {
           <h3 className="contact__info-title">Start your own<br/>company</h3>
           <p className="contact__info-desc">Ready to establish your business in Dubai? Our expert team is here to guide you through every step of the process, from initial consultation to final setup.</p>
           <ul className="contact__info-list">
-            <li><FaMapMarkerAlt className="contact__icon" />205, Ontario Tower, Business Bay</li>
+            <li><FaMapMarkerAlt className="contact__icon" />Office number 205, Ontario Tower, Business Bay, Dubai</li>
             <li><FaPhoneAlt className="contact__icon" />Phone: +9714 579 3444</li>
             <li><FaMobileAlt className="contact__icon" />Mobile: +971 50 419 3507</li>
             <li><FaEnvelope className="contact__icon" />Email: info@www.globalvisionuae.com</li>

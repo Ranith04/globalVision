@@ -84,7 +84,7 @@ export default function Hero() {
             Company in <span className="hero-title-accent">Dubai</span>
           </h1>
           <p className="hero-subtitle">
-            Transform your architectural vision into reality with Dubai's leading construction and design company
+          Establish your company with confidence through Global Vision — your trusted partner for premium office solutions and complete business setup services in Dubai.
           </p>
           <a href="#contact" className="hero-cta-btn" style={{background: '#00c89d', display: 'inline-flex', alignItems: 'center', gap: '8px'}}>
             Start Now <span style={{fontSize: '1.2em', marginLeft: '4px'}}>&#8594;</span>
@@ -92,7 +92,7 @@ export default function Hero() {
         </div>
         <div className="exact-form-container">
           <div className="exact-form-card">
-            <h2 className="exact-form-title">Find Out How</h2>
+            <h2 className="exact-form-title">Request A Call</h2>
             <form className="exact-form" onSubmit={handleSubmit}>
               <div className="exact-form-group">
                 <label>Name</label>

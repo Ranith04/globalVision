@@ -17,9 +17,9 @@ export default function Mission() {
             Our Mission<br />
             <span className="accent split-amp">&amp;</span> <span className="split-vision">Vision</span>
           </h2>
-          <p>Our mission is to revolutionize Dubai's architectural landscape through innovative design, sustainable practices, and exceptional craftsmanship. We envision a future where every building tells a story of excellence.</p>
-          <p>From luxury residential complexes to iconic commercial towers, we bring together cutting-edge technology and timeless design principles to create structures that stand the test of time.</p>
-          <p>With over 150 successful projects completed across the UAE, we continue to push the boundaries of what's possible in modern architecture.</p>
+          <p>At Global Vision, our mission is to serve as a catalyst for sustainable business growth by delivering integrated workspace solutions and strategic advisory services tailored to the evolving needs of modern enterprises. We are committed to enabling entrepreneurs and organizations to navigate Dubai’s dynamic business landscape with confidence, efficiency, and regulatory clarity. </p>
+          <p>Our vision is to establish a benchmark for excellence in business infrastructure by creating a future-ready ecosystem that fosters innovation, accelerates opportunity, and supports long-term enterprise value.</p>
+          
         </div>
       </div>
     </section>

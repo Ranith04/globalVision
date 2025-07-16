@@ -32,7 +32,6 @@ export default function Home() {
       <Modal open={modalOpen} onClose={() => setModalOpen(false)}>
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: 16 }}>
           <img src="/images/logo.jpg" alt="Global Vision Logo" style={{ height: 38, marginBottom: 8 }} />
-          <h2 style={{ fontWeight: 700, fontSize: '1.6rem', margin: 0, color: '#222' }}>Get a call in under a minute!</h2>
           <div style={{ fontWeight: 500, fontSize: '1.08rem', color: '#222', marginBottom: 0 }}>
             <span style={{ color: '#009688', fontWeight: 700 }}>Drop your contact details</span> , we will connect with you in a minute.
           </div>
