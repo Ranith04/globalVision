@@ -32,8 +32,8 @@ export default function IFZAFreezonePage() {
         }}>
            {/* Left-aligned: Heading and Description */}
            <div style={{ color: '#fff', textAlign: 'left', maxWidth: 900 }}>
-            <h1 style={{ fontFamily: 'Playfair Display, serif', fontSize: '3.2rem', fontWeight: 700, lineHeight: 1.2, marginBottom: 24 }}>
-              RAK ICC Offshore<br />Company Formation
+            <h1 style={{ fontFamily: 'Playfair Display, serif', fontSize: '3.2rem', fontWeight: 700, lineHeight: 1.2, marginBottom: 40 }}>
+               International Free Zone Authority  <br />Company Formation
             </h1>
             <p style={{ fontFamily: 'Montserrat, Arial, sans-serif', fontSize: '1.1rem', color: '#ffffff', marginBottom: 0, fontWeight: 400, lineHeight: 1.7, opacity: 0.95 }}>
             Set up your business in IFZA Dubai, a fast-growing free zone located just 20 minutes from Dubai International Airport and Downtown Dubai. Known for its business-friendly environment and streamlined setup process, IFZA offers flexible license packages, cost-effective solutions, and 100% foreign ownership. It's an innovation-focused ecosystem ideal for global entrepreneurs, SMEs, and startups seeking a strategic gateway to the Middle East, Africa, and beyond. With modern infrastructure, strong regulatory support, and access to a global business network, IFZA empowers investors to launch, operate, and scale their ventures seamlessly in one of Dubai’s most dynamic commercial hubs.

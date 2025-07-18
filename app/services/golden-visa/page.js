@@ -56,8 +56,8 @@ export default function GoldenVisaPage() {
           <div style={{ flex: 1 }}>
             <h2 style={{ fontSize: '2.8rem', fontWeight: 700, marginBottom: 18, color: '#179e9e' }}>Your Gateway to Long-Term Residency</h2>
           </div>
-          <div style={{ flex: 1, minWidth: 320, background: 'transparent' }}>
-            <Image src="/images/golden-1.jpg" alt="Dubai Skyline" width={500} height={300} style={{ borderRadius: 16, width: '100%', height: 'auto', background: 'transparent' }} />
+          <div style={{  flex: 1, minWidth: 500, maxWidth: 500, padding: '12px' }}>
+            <Image src="/images/golden-1.jpg" alt="Dubai Skyline" width={500} height={300} style={{ borderRadius: 16, width: '100%', height: 'auto' }} />
           </div>
         </div>
       </section>

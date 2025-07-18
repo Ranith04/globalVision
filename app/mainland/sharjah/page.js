@@ -47,7 +47,7 @@ export default function SharjahMainlandPage() {
         }}>
            {/* Left-aligned: Heading and Description */}
            <div style={{ color: '#fff', textAlign: 'left', maxWidth: 900 }}>
-            <h1 style={{ fontFamily: 'Playfair Display, serif', fontSize: '3.2rem', fontWeight: 700, lineHeight: 1.2, marginBottom: 24 }}>
+            <h1 style={{ fontFamily: 'Playfair Display, serif', fontSize: '3.2rem', fontWeight: 700, lineHeight: 1.2, marginBottom: 40 }}>
             Sharjah Mainland<br />Company Formation
             </h1>
             <p style={{ fontFamily: 'Montserrat, Arial, sans-serif', fontSize: '1.1rem', color: '#ffffff', marginBottom: 0, fontWeight: 400, lineHeight: 1.7, opacity: 0.95 }}>
@@ -110,59 +110,7 @@ export default function SharjahMainlandPage() {
           </div>
         </div>
       </section>
-      {/* Types of Business Entities Section */}
-      <section style={{ background: '#fff', padding: '60px 0' }}>
-        <div style={{ maxWidth: 1200, margin: '0 auto', padding: '0 20px' }}>
-          <h2 style={{ textAlign: 'center', fontWeight: 700, fontSize: '2rem', marginBottom: 10, fontFamily: 'Montserrat, Arial, sans-serif', color: '#222' }}>
-            What are the Types of Business Entities in Sharjah?
-          </h2>
-          <p style={{ textAlign: 'center', color: '#444', marginBottom: 40, fontFamily: 'Montserrat, Arial, sans-serif', fontWeight: 400 }}>
-            Choose the right business structure that aligns with your goals and operational requirements.
-          </p>
-          <div style={{ display: 'flex', flexWrap: 'wrap', gap: 24, justifyContent: 'center' }}>
-            {/* LLC */}
-            <div style={{ flex: '1 1 340px', minWidth: 300, maxWidth: 400, border: '1.5px solid #1ec6b6', borderRadius: 16, padding: 28, marginBottom: 24, background: '#fff' }}>
-              <h3 style={{ color: '#1ec6b6', fontWeight: 700, fontSize: '1.15rem', marginBottom: 12, fontFamily: 'Montserrat, Arial, sans-serif' }}>LLC</h3>
-              <p style={{ color: '#222', marginBottom: 12, fontFamily: 'Montserrat, Arial, sans-serif', fontWeight: 400 }}>Suitable for most business activities with 2–50 shareholders. Full UAE and international market access.</p>
-              <ul style={{ color: '#1ec6b6', paddingLeft: 18, margin: 0, fontSize: 15, fontFamily: 'Montserrat, Arial, sans-serif', fontWeight: 400 }}>
-                <li>2–50 shareholders</li>
-                <li>Limited liability</li>
-                <li>Flexible structure</li>
-              </ul>
-            </div>
-            {/* Sole Establishment */}
-            <div style={{ flex: '1 1 340px', minWidth: 300, maxWidth: 400, border: '1.5px solid #1ec6b6', borderRadius: 16, padding: 28, marginBottom: 24, background: '#fff' }}>
-              <h3 style={{ color: '#1ec6b6', fontWeight: 700, fontSize: '1.15rem', marginBottom: 12, fontFamily: 'Montserrat, Arial, sans-serif' }}>Sole Establishment</h3>
-              <p style={{ color: '#222', marginBottom: 12, fontFamily: 'Montserrat, Arial, sans-serif', fontWeight: 400 }}>Single-owner setup perfect for professionals and consultants.</p>
-              <ul style={{ color: '#1ec6b6', paddingLeft: 18, margin: 0, fontSize: 15, fontFamily: 'Montserrat, Arial, sans-serif', fontWeight: 400 }}>
-                <li>Single ownership</li>
-                <li>Professional services</li>
-                <li>Quick setup</li>
-              </ul>
-            </div>
-            {/* Branch Office */}
-            <div style={{ flex: '1 1 340px', minWidth: 300, maxWidth: 400, border: '1.5px solid #1ec6b6', borderRadius: 16, padding: 28, marginBottom: 24, background: '#fff' }}>
-              <h3 style={{ color: '#1ec6b6', fontWeight: 700, fontSize: '1.15rem', marginBottom: 12, fontFamily: 'Montserrat, Arial, sans-serif' }}>Branch Office</h3>
-              <p style={{ color: '#222', marginBottom: 12, fontFamily: 'Montserrat, Arial, sans-serif', fontWeight: 400 }}>Expansion option for foreign companies looking to establish presence in UAE.</p>
-              <ul style={{ color: '#1ec6b6', paddingLeft: 18, margin: 0, fontSize: 15, fontFamily: 'Montserrat, Arial, sans-serif', fontWeight: 400 }}>
-                <li>Foreign company expansion</li>
-                <li>Parent company liability</li>
-                <li>Local presence</li>
-              </ul>
-            </div>
-            {/* Partnership Firm */}
-            <div style={{ flex: '1 1 340px', minWidth: 300, maxWidth: 400, border: '1.5px solid #1ec6b6', borderRadius: 16, padding: 28, marginBottom: 24, background: '#fff' }}>
-              <h3 style={{ color: '#1ec6b6', fontWeight: 700, fontSize: '1.15rem', marginBottom: 12, fontFamily: 'Montserrat, Arial, sans-serif' }}>Partnership Firm</h3>
-              <p style={{ color: '#222', marginBottom: 12, fontFamily: 'Montserrat, Arial, sans-serif', fontWeight: 400 }}>Requires UAE partner with shared legal responsibility and profits.</p>
-              <ul style={{ color: '#1ec6b6', paddingLeft: 18, margin: 0, fontSize: 15, fontFamily: 'Montserrat, Arial, sans-serif', fontWeight: 400 }}>
-                <li>Shared responsibility</li>
-                <li>UAE partner required</li>
-                <li>Joint liability</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
+
       {/* Documents Required Section */}
       <section style={{ background: 'linear-gradient(135deg, #19e2c0 0%, #0b6a7c 100%)', padding: '60px 0' }}>
         <div style={{ maxWidth: 1200, margin: '0 auto', padding: '0 20px' }}>
@@ -182,10 +130,10 @@ export default function SharjahMainlandPage() {
                 <span style={{ fontWeight: 600, fontSize: '1.08rem', fontFamily: 'Montserrat, Arial, sans-serif', color: '#173c4f' }}>Personal Documents</span>
               </div>
               <ul style={{ color: '#173c4f', fontSize: 15, fontFamily: 'Montserrat, Arial, sans-serif', margin: 0, padding: 0, listStyle: 'none', lineHeight: 1.7 }}>
-                <li><span style={{ color: '#1ec6b6', fontWeight: 700, marginRight: 7 }}>✔</span>Valid passport copies of all shareholders</li>
-                <li><span style={{ color: '#1ec6b6', fontWeight: 700, marginRight: 7 }}>✔</span>Passport-size photographs</li>
-                <li><span style={{ color: '#1ec6b6', fontWeight: 700, marginRight: 7 }}>✔</span>No Objection Certificate (if applicable)</li>
-                <li><span style={{ color: '#1ec6b6', fontWeight: 700, marginRight: 7 }}>✔</span>Educational certificates for professional licenses</li>
+                <li><span style={{ color: '#1ec6b6', fontWeight: 700, marginRight: 7 }}>•</span>Valid passport copies of all shareholders</li>
+                <li><span style={{ color: '#1ec6b6', fontWeight: 700, marginRight: 7 }}>•</span>Passport-size photographs</li>
+                <li><span style={{ color: '#1ec6b6', fontWeight: 700, marginRight: 7 }}>•</span>No Objection Certificate (if applicable)</li>
+                <li><span style={{ color: '#1ec6b6', fontWeight: 700, marginRight: 7 }}>•</span>Educational certificates for professional licenses</li>
               </ul>
             </div>
             {/* Business Documents */}
@@ -197,10 +145,9 @@ export default function SharjahMainlandPage() {
                 <span style={{ fontWeight: 600, fontSize: '1.08rem', fontFamily: 'Montserrat, Arial, sans-serif', color: '#173c4f' }}>Business Documents</span>
               </div>
               <ul style={{ color: '#173c4f', fontSize: 15, fontFamily: 'Montserrat, Arial, sans-serif', margin: 0, padding: 0, listStyle: 'none', lineHeight: 1.7 }}>
-                <li><span style={{ color: '#1ec6b6', fontWeight: 700, marginRight: 7 }}>✔</span>Memorandum of Association (MOA)</li>
-                <li><span style={{ color: '#1ec6b6', fontWeight: 700, marginRight: 7 }}>✔</span>Articles of Association (AOA)</li>
-                <li><span style={{ color: '#1ec6b6', fontWeight: 700, marginRight: 7 }}>✔</span>Office lease agreement (Ejari)</li>
-                <li><span style={{ color: '#1ec6b6', fontWeight: 700, marginRight: 7 }}>✔</span>Business plan and activity description</li>
+                <li><span style={{ color: '#1ec6b6', fontWeight: 700, marginRight: 7 }}>•</span>Memorandum of Association</li>
+                <li><span style={{ color: '#1ec6b6', fontWeight: 700, marginRight: 7 }}>•</span>Office lease agreement</li>
+                <li><span style={{ color: '#1ec6b6', fontWeight: 700, marginRight: 7 }}>•</span>Business plan and activity description</li>
               </ul>
             </div>
             {/* Corporate Documents */}
@@ -212,10 +159,10 @@ export default function SharjahMainlandPage() {
                 <span style={{ fontWeight: 600, fontSize: '1.08rem', fontFamily: 'Montserrat, Arial, sans-serif', color: '#173c4f' }}>Corporate Documents</span>
               </div>
               <ul style={{ color: '#173c4f', fontSize: 15, fontFamily: 'Montserrat, Arial, sans-serif', margin: 0, padding: 0, listStyle: 'none', lineHeight: 1.7 }}>
-                <li><span style={{ color: '#1ec6b6', fontWeight: 700, marginRight: 7 }}>✔</span>Board resolution for company formation</li>
-                <li><span style={{ color: '#1ec6b6', fontWeight: 700, marginRight: 7 }}>✔</span>Power of attorney (if applicable)</li>
-                <li><span style={{ color: '#1ec6b6', fontWeight: 700, marginRight: 7 }}>✔</span>Shareholder agreements</li>
-                <li><span style={{ color: '#1ec6b6', fontWeight: 700, marginRight: 7 }}>✔</span>Company incorporation certificate</li>
+                <li><span style={{ color: '#1ec6b6', fontWeight: 700, marginRight: 7 }}>•</span>Board resolution for company formation</li>
+                <li><span style={{ color: '#1ec6b6', fontWeight: 700, marginRight: 7 }}>•</span>Power of attorney (if applicable)</li>
+                <li><span style={{ color: '#1ec6b6', fontWeight: 700, marginRight: 7 }}>•</span>Shareholder agreements</li>
+                <li><span style={{ color: '#1ec6b6', fontWeight: 700, marginRight: 7 }}>•</span>Company incorporation certificate</li>
               </ul>
             </div>
             {/* Additional Requirements */}
@@ -227,10 +174,9 @@ export default function SharjahMainlandPage() {
                 <span style={{ fontWeight: 600, fontSize: '1.08rem', fontFamily: 'Montserrat, Arial, sans-serif', color: '#173c4f' }}>Additional Requirements</span>
               </div>
               <ul style={{ color: '#173c4f', fontSize: 15, fontFamily: 'Montserrat, Arial, sans-serif', margin: 0, padding: 0, listStyle: 'none', lineHeight: 1.7 }}>
-                <li><span style={{ color: '#1ec6b6', fontWeight: 700, marginRight: 7 }}>✔</span>Trade name reservation certificate</li>
-                <li><span style={{ color: '#1ec6b6', fontWeight: 700, marginRight: 7 }}>✔</span>Initial approval from SEDD</li>
-                <li><span style={{ color: '#1ec6b6', fontWeight: 700, marginRight: 7 }}>✔</span>Special approvals for regulated activities</li>
-                <li><span style={{ color: '#1ec6b6', fontWeight: 700, marginRight: 7 }}>✔</span>Bank reference letters</li>
+                <li><span style={{ color: '#1ec6b6', fontWeight: 700, marginRight: 7 }}>•</span>Trade name reservation certificate</li>
+                <li><span style={{ color: '#1ec6b6', fontWeight: 700, marginRight: 7 }}>•</span>Initial approval</li>
+                <li><span style={{ color: '#1ec6b6', fontWeight: 700, marginRight: 7 }}>•</span>Special approvals for regulated activities</li>
               </ul>
             </div>
           </div>

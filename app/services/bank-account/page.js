@@ -56,7 +56,7 @@ export default function BankAccountPage() {
           <div style={{ flex: 1 }}>
             <h2 style={{  fontSize: '2.8rem', fontWeight: 700, marginBottom: 18, color: '#179e9e' }}>Open Bank Account Online in UAE</h2>
           </div>
-          <div style={{ flex: 1, minWidth: 320 }}>
+          <div style={{ flex: 1, minWidth: 500, maxWidth: 500, padding: '12px' }}>
             <Image src="/images/bankacount-1.jpg" alt="Bank Account UAE" width={500} height={300} style={{ borderRadius: 16, width: '100%', height: 'auto' }} />
           </div>
         </div>
