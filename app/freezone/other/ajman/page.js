@@ -1,5 +1,4 @@
 import React from "react";
-import CallbackForm from "../../../components/CallbackForm";
 import ContactLeadSection from '../../../components/ContactLeadSection';
 import Navbar from "../../../components/Navbar";
 
@@ -7,46 +6,45 @@ export default function AjmanFreezonePage() {
   return (
     <>
       <Navbar />
-      <section className="hero-section" style={{ position: 'relative', minHeight: '100vh', padding: 0, background: 'linear-gradient(120deg, #0f9d8f 0%, #0e3c5d 100%)' }}>
-        {/* Background Image under gradient */}
-        <img
-          src="/images/Background-services.jpg"
-          alt="Background"
-          style={{
-            position: 'absolute',
-            top: 0,
-            left: 0,
-            width: '100vw',
-            height: '100vh',
-            objectFit: 'cover',
-            zIndex: 0,
-            opacity: 0.18,
-            pointerEvents: 'none',
-          }}
-        />
-        {/* Overlay (cityscape image) */}
+      <section style={{
+        minHeight: '80vh',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        background: 'linear-gradient(120deg, #0f9d8f 0%, #0e3c5d 100%)',
+        position: 'relative',
+        padding: 0
+      }}>
+        {/* Background cityscape overlay */}
         <div style={{
           position: 'absolute',
           top: 0,
           left: 0,
-          width: '100vw',
-          height: '100vh',
-          background: 'url(/images/hero-bg.jpg) center/cover no-repeat',
-          opacity: 0.25,
+          width: '100%',
+          height: '100%',
+          background: 'url(/images/Background-services.jpg) center/cover no-repeat',
+          opacity: 0.35,
           zIndex: 1
         }} />
-        <div className="hero-content-wrapper" style={{ position: 'relative', zIndex: 2, display: 'flex', justifyContent: 'space-between', alignItems: 'center', maxWidth: 1200, margin: '0 auto', padding: '0 40px', minHeight: '100vh' }}>
-          <div className="hero-content" style={{ flex: 1, color: '#fff', textAlign: 'left', paddingRight: 20, maxWidth: 600 }}>
-            <h1 className="hero-title" style={{ fontFamily: 'Playfair Display, serif', fontSize: '3.2rem', fontWeight: 700, color: '#fff', lineHeight: 1.1, marginBottom: 18 }}>
-              Ajman Media City Free Zone<br />(AMC)
+         <div style={{
+           position: 'relative',
+           zIndex: 2,
+           display: 'flex',
+           justifyContent: 'flex-start',
+           alignItems: 'center',
+           width: '100%',
+           maxWidth: 1200,
+           margin: '0 auto',
+           padding: '0 60px',
+        }}>
+           {/* Left-aligned: Heading and Description */}
+           <div style={{ color: '#fff', textAlign: 'left', maxWidth: 900 }}>
+            <h1 style={{ fontFamily: 'Playfair Display, serif', fontSize: '3.2rem', fontWeight: 700, lineHeight: 1.2, marginBottom: 24 }}>
+              Ajman Media City<br />Company Formation
             </h1>
-            <p className="hero-subtitle" style={{ fontFamily: 'Montserrat, Arial, sans-serif', fontSize: '1.25rem', color: '#d1d5db', marginBottom: 36, fontWeight: 400 }}>
-              The latest free zone in the UAE, established in 2018 as an international hub for all media-related establishments, attracting businesses from around the world.
+            <p style={{ fontFamily: 'Montserrat, Arial, sans-serif', fontSize: '1.1rem', color: '#ffffff', marginBottom: 0, fontWeight: 400, lineHeight: 1.7, opacity: 0.95 }}>
+            Established in 2018, this is the UAE’s newest free zone dedicated to media and creative industries. Designed to attract global content creators, broadcasters, digital media companies, and creative professionals, it provides a vibrant and flexible ecosystem. With state-of-the-art facilities, simplified licensing procedures, and a collaborative community, it supports innovation and growth in media-related sectors. Its strategic location and modern infrastructure make it an ideal base for startups and established firms looking to expand their presence in the region and beyond. This zone stands as a dynamic hub for fostering creativity, global partnerships, and industry excellence in the media landscape.
             </p>
-            <a href="#contact" className="hero-cta-btn" style={{ background: '#1ec6b6', color: '#fff', padding: '14px 38px', borderRadius: 30, fontWeight: 700, fontSize: '1.15rem', textDecoration: 'none', display: 'inline-block', marginTop: 10 }}>Start Your AMC Company</a>
-          </div>
-          <div style={{ minWidth: 350, maxWidth: 400 }}>
-            <CallbackForm />
           </div>
         </div>
       </section>

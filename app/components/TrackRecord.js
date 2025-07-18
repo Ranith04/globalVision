@@ -16,8 +16,8 @@ export default function TrackRecord() {
         </div>
         <div className="track-record__item">
           <span className="track-record__icon">👷‍♂️</span>
-          <span className="track-record__number">30+</span>
-          <span className="track-record__label">Architects</span>
+          <span className="track-record__number">50+</span>
+          <span className="track-record__label">Advisors</span>
         </div>
         <div className="track-record__item">
           <span className="track-record__icon">🏆</span>

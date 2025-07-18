@@ -1,19 +1,54 @@
 import { FaGlobe, FaMapMarkedAlt, FaPlaneDeparture, FaUserFriends } from 'react-icons/fa';
 import ContactLeadSection from '../../components/ContactLeadSection';
-import FreezoneHeroWithForm from '../../components/FreezoneHeroWithForm';
 import Navbar from '../../components/Navbar';
 
 export default function GlobalVisaPage() {
   return (
     <>
       <Navbar />
-      <FreezoneHeroWithForm
-        title={"Global Visa Assistance"}
-        description={"Worldwide visa solutions for travel, work, and migration. Fast, reliable, and expert support for all your global mobility needs."}
-        ctaText="Get Visa Assistance"
-        ctaHref="#callback-form"
-        backgroundImage="/images/Background-services.jpg"
-      />
+      {/* Simple Hero Section without form */}
+      <section style={{
+        minHeight: '80vh',
+        display: 'flex',
+        alignItems: 'flex-start',
+        justifyContent: 'center',
+        background: 'linear-gradient(120deg, #0f9d8f 0%, #0e3c5d 100%)',
+        position: 'relative',
+        padding: '80px 0 0 0'
+      }}>
+        {/* Background cityscape overlay */}
+        <div style={{
+          position: 'absolute',
+          top: 0,
+          left: 0,
+          width: '100%',
+          height: '100%',
+          background: 'url(/images/Background-services.jpg) center/cover no-repeat',
+          opacity: 0.35,
+          zIndex: 1
+        }} />
+         <div style={{
+           position: 'relative',
+           zIndex: 2,
+           display: 'flex',
+           justifyContent: 'flex-start',
+           alignItems: 'center',
+           width: '100%',
+           maxWidth: 1200,
+           margin: '0 auto',
+           padding: '0 60px',
+        }}>
+           {/* Left-aligned: Heading and Description */}
+           <div style={{ color: '#fff', textAlign: 'left', maxWidth: 900 }}>
+            <h1 style={{ fontFamily: 'Playfair Display, serif', fontSize: '3.2rem', fontWeight: 700, lineHeight: 1.2, marginBottom: 40 }}>
+                UAE Global Visa
+            </h1>
+            <p style={{ fontFamily: 'Montserrat, Arial, sans-serif', fontSize: '1.1rem', color: '#ffffff', marginBottom: 0, fontWeight: 400, lineHeight: 1.7, opacity: 0.95 }}>
+            Your gateway to worldwide travel starts here.We offer expert visa assistance for over 100 countries, providing end-to-end support for UAE residents and international travelers. Whether you're traveling for business, tourism, or study, our personalized approach ensures fast, accurate processing and peace of mind throughout your journey.
+             </p>
+          </div>
+        </div>
+      </section>
       {/* Gateway Section */}
       <section style={{ background: '#E0E3EA', padding: '60px 0' }}>
         <div style={{ maxWidth: 1200, margin: '0 auto', display: 'flex', alignItems: 'center', gap: 48, padding: '0 32px' }}>

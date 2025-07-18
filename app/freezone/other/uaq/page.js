@@ -1,5 +1,4 @@
 import React from "react";
-import CallbackForm from "../../../components/CallbackForm";
 import ContactLeadSection from '../../../components/ContactLeadSection';
 import Navbar from "../../../components/Navbar";
 
@@ -36,18 +35,25 @@ export default function UaqFreezonePage() {
           opacity: 0.25,
           zIndex: 1
         }} />
-        <div className="hero-content-wrapper" style={{ position: 'relative', zIndex: 2, display: 'flex', justifyContent: 'space-between', alignItems: 'center', maxWidth: 1200, margin: '0 auto', padding: '0 40px', minHeight: '100vh' }}>
-          <div className="hero-content" style={{ flex: 1, color: '#fff', textAlign: 'left', paddingRight: 20, maxWidth: 600 }}>
-            <h1 className="hero-title" style={{ fontFamily: 'Playfair Display, serif', fontSize: '3.2rem', fontWeight: 700, color: '#fff', lineHeight: 1.1, marginBottom: 18 }}>
-              Umm Al Quwain Free<br />Zone (UAQ FTZ)
+        <div style={{
+           position: 'relative',
+           zIndex: 2,
+           display: 'flex',
+           justifyContent: 'flex-start',
+           alignItems: 'center',
+           width: '100%',
+           maxWidth: 1200,
+           margin: '0 auto',
+           padding: '0 60px',
+        }}>
+           {/* Left-aligned: Heading and Description */}
+           <div style={{ color: '#fff', textAlign: 'left', maxWidth: 900 }}>
+            <h1 style={{ fontFamily: 'Playfair Display, serif', fontSize: '3.2rem', fontWeight: 700, lineHeight: 1.2, marginBottom: 24 }}>
+              Umm Al Quwain Free Zone<br />Company Formation
             </h1>
-            <p className="hero-subtitle" style={{ fontFamily: 'Montserrat, Arial, sans-serif', fontSize: '1.25rem', color: '#d1d5db', marginBottom: 36, fontWeight: 400 }}>
-              Start your business in the fastest-growing business hub in the MENA region. UAQ Free Zone is a progressive business setup space favoring corporates, micro-businesses, and SMEs with unlimited advantages.
+            <p style={{ fontFamily: 'Montserrat, Arial, sans-serif', fontSize: '1.1rem', color: '#ffffff', marginBottom: 0, fontWeight: 400, lineHeight: 1.7, opacity: 0.95 }}>
+            Start your business in the Umm Al Quwain Free Zone (UAQ Free Zone), one of the fastest-growing commercial hubs in the MENA region. Known for its business-friendly environment, UAQ Free Zone offers affordable setup solutions tailored for corporates, SMEs, and micro-businesses. With low operational costs, minimal bureaucracy, and a variety of flexible licensing options, it enables smooth and efficient company formation. Its strategic location near major seaports and airports provides easy access to regional and global markets. Whether you’re launching a startup or expanding internationally, UAQ Free Zone serves as a strong platform for sustainable business growth and success.
             </p>
-            <a href="#contact" className="hero-cta-btn" style={{ background: '#1ec6b6', color: '#fff', padding: '14px 38px', borderRadius: 30, fontWeight: 700, fontSize: '1.15rem', textDecoration: 'none', display: 'inline-block', marginTop: 10 }}>Start Your UAQ Company</a>
-          </div>
-          <div style={{ minWidth: 350, maxWidth: 400 }}>
-            <CallbackForm />
           </div>
         </div>
       </section>

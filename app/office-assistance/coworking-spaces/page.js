@@ -1,19 +1,54 @@
 import React from 'react';
 import ContactLeadSection from '../../components/ContactLeadSection';
-import FreezoneHeroWithForm from '../../components/FreezoneHeroWithForm';
 import Navbar from '../../components/Navbar';
 
 export default function CoworkingSpacesPage() {
   return (
     <>
       <Navbar />
-      <FreezoneHeroWithForm
-        title={"Coworking Spaces in Dubai"}
-        description={"Flexible, modern coworking spaces designed for entrepreneurs, freelancers, and startups. Enjoy premium amenities, networking, and a collaborative environment in the heart of Dubai."}
-        ctaText="Book Your Coworking Space"
-        ctaHref="#callback-form"
-         backgroundImage="/images/Background-services.jpg"
-      />
+      {/* Simple Hero Section without form */}
+      <section style={{
+        minHeight: '80vh',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        background: 'linear-gradient(120deg, #0f9d8f 0%, #0e3c5d 100%)',
+        position: 'relative',
+        padding: 0
+      }}>
+        {/* Background cityscape overlay */}
+        <div style={{
+          position: 'absolute',
+          top: 0,
+          left: 0,
+          width: '100%',
+          height: '100%',
+          background: 'url(/images/Background-services.jpg) center/cover no-repeat',
+          opacity: 0.35,
+          zIndex: 1
+        }} />
+         <div style={{
+           position: 'relative',
+           zIndex: 2,
+           display: 'flex',
+           justifyContent: 'flex-start',
+           alignItems: 'center',
+           width: '100%',
+           maxWidth: 1200,
+           margin: '0 auto',
+           padding: '0 60px',
+        }}>
+           {/* Left-aligned: Heading and Description */}
+           <div style={{ color: '#fff', textAlign: 'left', maxWidth: 900 }}>
+            <h1 style={{ fontFamily: 'Playfair Display, serif', fontSize: '3.2rem', fontWeight: 700, lineHeight: 1.2, marginBottom: 24 }}>
+              RAK ICC Offshore<br />Company Formation
+            </h1>
+            <p style={{ fontFamily: 'Montserrat, Arial, sans-serif', fontSize: '1.1rem', color: '#ffffff', marginBottom: 0, fontWeight: 400, lineHeight: 1.7, opacity: 0.95 }}>
+              Ras Al Khaimah International Corporate Centre (RAK ICC) is your gateway to seamless international business operations, offering a secure and reputable jurisdiction for global entrepreneurs and investors. With flexible regulations, tax-free benefits, and a strong legal framework aligned with international standards, RAK ICC is ideal for asset protection, wealth management, international holding structures, and business expansion — all while ensuring confidentiality and operational efficiency.
+            </p>
+          </div>
+        </div>
+      </section>
       {/* 2nd Section */}
       <section style={{ background: '#eafcf8', padding: '56px 0 56px 0' }}>
         <div style={{ maxWidth: 1100, margin: '0 auto', padding: '0 32px', display: 'flex', alignItems: 'center', gap: 32, flexWrap: 'wrap' }}>
@@ -37,7 +72,7 @@ export default function CoworkingSpacesPage() {
         </div>
       </section>
       {/* 3rd Section: What is a Coworking Space in Dubai? */}
-      <section style={{ background: '#fff', padding: '48px 0 36px 0' }}>
+      <section style={{ background: '#f8f9fa', padding: '48px 0 36px 0' }}>
         <div style={{ maxWidth: 1100, margin: '0 auto', padding: '0 32px', display: 'flex', alignItems: 'center', gap: 38, flexWrap: 'wrap', justifyContent: 'center' }}>
           {/* Left: Text */}
           <div style={{ flex: 1, minWidth: 320, maxWidth: 540 }}>
@@ -57,7 +92,7 @@ export default function CoworkingSpacesPage() {
         </div>
       </section>
       {/* 4th Section: Why Coworking Spaces are Perfect for Your Business */}
-      <section style={{ background: '#fff', padding: '48px 0 36px 0' }}>
+      <section style={{ background: '#f1f5f9', padding: '48px 0 36px 0' }}>
         <div style={{ maxWidth: 1100, margin: '0 auto', padding: '0 32px' }}>
           <h2 style={{ textAlign: 'center', fontWeight: 700, fontSize: '1.5rem', marginBottom: 10, fontFamily: 'Montserrat, Arial, sans-serif', color: '#151b26' }}>
             Why Coworking Spaces are Perfect for Your Business
@@ -94,7 +129,7 @@ export default function CoworkingSpacesPage() {
         </div>
       </section>
       {/* 5th Section: Best Coworking Space in Dubai */}
-      <section style={{ background: '#fff', padding: '48px 0 36px 0' }}>
+      <section style={{ background: '#f0fdf4', padding: '48px 0 36px 0' }}>
         <div style={{ maxWidth: 1100, margin: '0 auto', padding: '0 32px', display: 'flex', alignItems: 'center', gap: 38, flexWrap: 'wrap', justifyContent: 'center' }}>
           {/* Left: List */}
           <ul style={{ flex: 1, minWidth: 320, maxWidth: 480, color: '#19c39c', fontSize: 15, fontFamily: 'Montserrat, Arial, sans-serif', paddingLeft: 0, margin: 0, listStyle: 'none' }}>
@@ -111,7 +146,7 @@ export default function CoworkingSpacesPage() {
         </div>
       </section>
       {/* 6th Section: Benefits of Coworking Space at Spider Business Center */}
-      <section style={{ background: '#fff', padding: '32px 0 32px 0' }}>
+      <section style={{ background: '#ecfdf5', padding: '32px 0 32px 0' }}>
         <div style={{ maxWidth: 1100, margin: '0 auto', padding: '0 32px' }}>
           <h2 style={{ textAlign: 'center', fontWeight: 700, fontSize: '1.3rem', marginBottom: 32, fontFamily: 'Montserrat, Arial, sans-serif', color: '#151b26' }}>
             Benefits of Coworking Space at Spider Business Center
@@ -125,27 +160,8 @@ export default function CoworkingSpacesPage() {
           </div>
         </div>
       </section>
-      {/* 7th Section: Affordable Coworking Space Package */}
-      <section style={{ background: 'linear-gradient(120deg, #0f9d8f 0%, #19c39c 100%)', padding: '56px 0 36px 0' }}>
-        <div style={{ maxWidth: 700, margin: '0 auto', textAlign: 'center', padding: '0 32px' }}>
-          <div style={{ background: 'rgba(255,255,255,0.10)', borderRadius: 18, padding: '38px 0', color: '#fff', fontWeight: 700, fontSize: '1.5rem', marginBottom: 0, fontFamily: 'Montserrat, Arial, sans-serif', border: '1.5px solid #19c39c' }}>
-            <div style={{ fontSize: 18, marginBottom: 10 }}>Our Top Package</div>
-            <div style={{ fontSize: 32, fontWeight: 800, marginBottom: 10 }}>AED 1,200</div>
-            <div style={{ fontSize: 15, fontWeight: 400, marginBottom: 18 }}>Monthly Coworking access in prime location</div>
-            <ul style={{ color: '#fff', fontSize: 15, fontFamily: 'Montserrat, Arial, sans-serif', paddingLeft: 0, margin: '0 0 18px 0', listStyle: 'none', fontWeight: 400 }}>
-              <li>✔️ No Deposit</li>
-              <li>✔️ No Hidden Fees</li>
-              <li>✔️ 24/7 Access</li>
-              <li>✔️ Free Wi-Fi</li>
-              <li>✔️ Meeting Room Access</li>
-              <li>✔️ Printing & Scanning</li>
-            </ul>
-            <a href="#" style={{ background: '#fff', color: '#19c39c', padding: '11px 28px', borderRadius: 30, fontWeight: 700, fontSize: '1rem', textDecoration: 'none', display: 'inline-block', border: 'none', boxShadow: '0 2px 8px rgba(16,185,129,0.10)' }}>Book Now</a>
-          </div>
-        </div>
-      </section>
-      {/* 8th Section: Additional Benefits of Coworking */}
-      <section style={{ background: '#fff', padding: '48px 0 36px 0' }}>
+             {/* 8th Section: Additional Benefits of Coworking */}
+      <section style={{ background: '#fefce8', padding: '48px 0 36px 0' }}>
         <div style={{ maxWidth: 1100, margin: '0 auto', padding: '0 32px' }}>
           <div style={{ display: 'flex', justifyContent: 'center', gap: 38, flexWrap: 'wrap' }}>
             <div style={{ textAlign: 'center', minWidth: 120 }}>
@@ -172,7 +188,7 @@ export default function CoworkingSpacesPage() {
         </div>
       </section>
       {/* 9th Section: FAQ */}
-      <section style={{ background: '#fff', padding: '32px 0 32px 0' }}>
+      <section style={{ background: '#f3f4f6', padding: '32px 0 32px 0' }}>
         <div style={{ maxWidth: 900, margin: '0 auto', padding: '0 32px' }}>
           <h2 style={{ textAlign: 'center', fontWeight: 700, fontSize: '1.3rem', marginBottom: 32, fontFamily: 'Montserrat, Arial, sans-serif', color: '#151b26' }}>
             Frequently Asked Questions

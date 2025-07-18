@@ -1,21 +1,54 @@
 import Image from 'next/image';
 import ContactLeadSection from '../../components/ContactLeadSection';
-import FreezoneHeroWithForm from '../../components/FreezoneHeroWithForm';
 import Navbar from '../../components/Navbar';
 
 export default function TrademarkPage() {
   return (
     <div style={{ background: '#f7f7f7' }}>
       <Navbar />
-      <FreezoneHeroWithForm
-        title={"Trademark Registration UAE"}
-        description={"Protect your brand with trademark registration and IP protection services in the UAE. Fast, reliable, and expert support."}
-        ctaText="Register Trademark"
-        ctaHref="#callback-form"
-        backgroundImage="/images/Background-services.jpg"
-      />
-
-      
+      {/* Simple Hero Section without form */}
+      <section style={{
+        minHeight: '80vh',
+        display: 'flex',
+        alignItems: 'flex-start',
+        justifyContent: 'center',
+        background: 'linear-gradient(120deg, #0f9d8f 0%, #0e3c5d 100%)',
+        position: 'relative',
+        padding: '80px 0 0 0'
+      }}>
+        {/* Background cityscape overlay */}
+        <div style={{
+          position: 'absolute',
+          top: 0,
+          left: 0,
+          width: '100%',
+          height: '100%',
+          background: 'url(/images/Background-services.jpg) center/cover no-repeat',
+          opacity: 0.35,
+          zIndex: 1
+        }} />
+         <div style={{
+           position: 'relative',
+           zIndex: 2,
+           display: 'flex',
+           justifyContent: 'flex-start',
+           alignItems: 'center',
+           width: '100%',
+           maxWidth: 1200,
+           margin: '0 auto',
+           padding: '0 60px',
+        }}>
+           {/* Left-aligned: Heading and Description */}
+           <div style={{ color: '#fff', textAlign: 'left', maxWidth: 900 }}>
+            <h1 style={{ fontFamily: 'Playfair Display, serif', fontSize: '3.2rem', fontWeight: 700, lineHeight: 1.2, marginBottom: 40 }}>
+              UAE Trademark Registration
+            </h1>
+            <p style={{ fontFamily: 'Montserrat, Arial, sans-serif', fontSize: '1.1rem', color: '#ffffff', marginBottom: 0, fontWeight: 400, lineHeight: 1.7, opacity: 0.95 }}>
+            Protect your brand with official trademark registration through the UAE Ministry of Economy. We provide expert guidance from trademark search to final certification, ensuring your intellectual property is legally secured and recognized across the UAE — giving your business the protection and credibility it deserves.
+            </p>
+          </div>
+        </div>
+      </section>      
 
       {/* Protect Your Brand Section */}
       <section style={{  background: '#E0E3EA', padding: '60px 0' }}>

@@ -2,7 +2,6 @@
 import React from 'react';
 import { FaBolt, FaCheckCircle, FaClock, FaClone, FaDollarSign, FaListAlt, FaMapMarkerAlt, FaMoneyBillWave, FaPercent, FaRegHandshake, FaUniversity, FaUserShield, FaUserTie } from 'react-icons/fa';
 import ContactLeadSection from '../../../components/ContactLeadSection';
-import FreezoneHeroWithForm from '../../../components/FreezoneHeroWithForm';
 import Navbar from '../../../components/Navbar';
 
 // Freezone image previews (replace with your actual image paths)
@@ -94,13 +93,39 @@ export default function SPCFreezonePage() {
   return (
     <>
       <Navbar />
-      <FreezoneHeroWithForm
-        title={"SPC Freezone"}
-        description={"Sharjah Publishing City Free Zone (SPC Free Zone) offers a strategic location, world-class infrastructure, and a business-friendly environment for entrepreneurs and investors."}
-        ctaText="Start Your SPC Company"
-        ctaHref="#callback-form"
-         backgroundImage="/images/Background-services.jpg"
-      />
+      <section className="hero-section" style={{ position: 'relative', minHeight: '100vh', padding: 0, background: 'linear-gradient(120deg, #0f9d8f 0%, #0e3c5d 100%)' }}>
+        <div style={{
+          position: 'absolute',
+          top: 0,
+          left: 0,
+          width: '100vw',
+          height: '100vh',
+          background: 'url(/images/Background-services.jpg) center/cover no-repeat',
+          opacity: 0.25,
+          zIndex: 1
+        }} />
+         <div style={{
+           position: 'relative',
+           zIndex: 2,
+           display: 'flex',
+           justifyContent: 'flex-start',
+           alignItems: 'center',
+           width: '100%',
+           maxWidth: 1200,
+           margin: '0 auto',
+           padding: '0 60px',
+        }}>
+           {/* Left-aligned: Heading and Description */}
+           <div style={{ color: '#fff', textAlign: 'left', maxWidth: 900 }}>
+            <h1 style={{ fontFamily: 'Playfair Display, serif', fontSize: '3.2rem', fontWeight: 700, lineHeight: 1.2, marginBottom: 24 }}>
+              Sharjah Publishing City<br />Company Formation
+            </h1>
+            <p style={{ fontFamily: 'Montserrat, Arial, sans-serif', fontSize: '1.1rem', color: '#ffffff', marginBottom: 0, fontWeight: 400, lineHeight: 1.7, opacity: 0.95 }}>
+            The world’s first free zone dedicated exclusively to the global print and publishing industry, this innovative hub provides a one-stop ecosystem for authors, content creators, and publishers. From writing and designing to printing, publishing, and distribution — everything is possible under one roof. Located in Sharjah, it offers advanced infrastructure, flexible licensing options, and a simplified setup process, making it an ideal choice for self-publishers, media companies, and creative entrepreneurs. The zone supports growth in both regional and international markets by fostering a professional, resource-rich environment tailored specifically to the evolving needs of the print and publishing community.
+            </p>
+          </div>
+        </div>
+      </section>
 
       <section style={{ background: '#fff', padding: '80px 0 0 0' }}>
         <div style={{ maxWidth: 1100, margin: '0 auto', padding: '0 24px', display: 'flex', flexWrap: 'wrap', alignItems: 'flex-start', gap: 36 }}>

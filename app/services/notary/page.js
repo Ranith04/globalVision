@@ -1,18 +1,54 @@
 import ContactLeadSection from '../../components/ContactLeadSection';
-import FreezoneHeroWithForm from '../../components/FreezoneHeroWithForm';
 import Navbar from '../../components/Navbar';
 
 export default function NotaryPage() {
   return (
     <>
       <Navbar />
-      <FreezoneHeroWithForm
-        title={"Notary Services Dubai"}
-        description={"Official notary public services for document attestation, certification, and legalization in Dubai and across the UAE."}
-        ctaText="Get Notary Services"
-        ctaHref="#callback-form"
-        backgroundImage="/images/Background-services.jpg"
-      />
+      {/* Simple Hero Section without form */}
+      <section style={{
+        minHeight: '80vh',
+        display: 'flex',
+        alignItems: 'flex-start',
+        justifyContent: 'center',
+        background: 'linear-gradient(120deg, #0f9d8f 0%, #0e3c5d 100%)',
+        position: 'relative',
+        padding: '80px 0 0 0'
+      }}>
+        {/* Background cityscape overlay */}
+        <div style={{
+          position: 'absolute',
+          top: 0,
+          left: 0,
+          width: '100%',
+          height: '100%',
+          background: 'url(/images/Background-services.jpg) center/cover no-repeat',
+          opacity: 0.35,
+          zIndex: 1
+        }} />
+         <div style={{
+           position: 'relative',
+           zIndex: 2,
+           display: 'flex',
+           justifyContent: 'flex-start',
+           alignItems: 'center',
+           width: '100%',
+           maxWidth: 1200,
+           margin: '0 auto',
+           padding: '0 60px',
+        }}>
+           {/* Left-aligned: Heading and Description */}
+           <div style={{ color: '#fff', textAlign: 'left', maxWidth: 900 }}>
+            <h1 style={{ fontFamily: 'Playfair Display, serif', fontSize: '3.2rem', fontWeight: 700, lineHeight: 1.2, marginBottom: 40 }}>
+              UAE Notary Services
+            </h1>
+            <p style={{ fontFamily: 'Montserrat, Arial, sans-serif', fontSize: '1.1rem', color: '#ffffff', marginBottom: 0, fontWeight: 400, lineHeight: 1.7, opacity: 0.95 }}>
+            Professional document notarization, authentication, and legalization services in Dubai and across the UAE.
+            We assist individuals and businesses with certifying legal documents for both local and international use, ensuring compliance with UAE and global standards. From power of attorney, commercial agreements, to personal certificates, our trusted services are fast, reliable, and recognized worldwide — making your cross-border transactions smooth and legally secure.
+             </p>
+          </div>
+        </div>
+      </section>
 {/* Gateway Section */}
 <section style={{ background: '#E0E3EA', padding: '60px 0' }}>
         <div style={{ maxWidth: 1200, margin: '0 auto', display: 'flex', alignItems: 'center', gap: 48, padding: '0 32px' }}>
@@ -20,7 +56,7 @@ export default function NotaryPage() {
             <h2 style={{ fontSize: '2.2rem', fontWeight: 700, marginBottom: 18, color: '#179e9e' }}>Certified Notary Services</h2>
           </div>
           <div style={{ flex: 1, minWidth: 500, maxWidth: 500, padding: '12px' }}>
-            <img src="/images/Background+Border+Shadow (1).png" alt="Dubai Skyline" style={{ borderRadius: 16, width: '100%', height: 'auto' }} />
+            <img src="/images/Background-Border-Shadow-1.png" alt="Dubai Skyline" style={{ borderRadius: 16, width: '100%', height: 'auto' }} />
           </div>
         </div>
       </section>

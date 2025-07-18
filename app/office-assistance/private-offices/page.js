@@ -1,19 +1,54 @@
 import React from 'react';
 import ContactLeadSection from '../../components/ContactLeadSection';
-import FreezoneHeroWithForm from '../../components/FreezoneHeroWithForm';
 import Navbar from '../../components/Navbar';
 
 export default function PrivateOfficesPage() {
   return (
     <>
       <Navbar />
-      <FreezoneHeroWithForm
-        title={"Private Offices in Dubai"}
-        description={"Secure, fully furnished private offices for businesses of all sizes. Experience privacy, comfort, and a professional environment with flexible lease terms in Dubai's top locations."}
-        ctaText="Get Your Private Office"
-        ctaHref="#callback-form"
-         backgroundImage="/images/Background-services.jpg"
-      />
+      {/* Simple Hero Section without form */}
+      <section style={{
+        minHeight: '80vh',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        background: 'linear-gradient(120deg, #0f9d8f 0%, #0e3c5d 100%)',
+        position: 'relative',
+        padding: 0
+      }}>
+        {/* Background cityscape overlay */}
+        <div style={{
+          position: 'absolute',
+          top: 0,
+          left: 0,
+          width: '100%',
+          height: '100%',
+          background: 'url(/images/Background-services.jpg) center/cover no-repeat',
+          opacity: 0.35,
+          zIndex: 1
+        }} />
+         <div style={{
+           position: 'relative',
+           zIndex: 2,
+           display: 'flex',
+           justifyContent: 'flex-start',
+           alignItems: 'center',
+           width: '100%',
+           maxWidth: 1200,
+           margin: '0 auto',
+           padding: '0 60px',
+        }}>
+           {/* Left-aligned: Heading and Description */}
+           <div style={{ color: '#fff', textAlign: 'left', maxWidth: 900 }}>
+            <h1 style={{ fontFamily: 'Playfair Display, serif', fontSize: '3.2rem', fontWeight: 700, lineHeight: 1.2, marginBottom: 24 }}>
+              RAK ICC Offshore<br />Company Formation
+            </h1>
+            <p style={{ fontFamily: 'Montserrat, Arial, sans-serif', fontSize: '1.1rem', color: '#ffffff', marginBottom: 0, fontWeight: 400, lineHeight: 1.7, opacity: 0.95 }}>
+              Ras Al Khaimah International Corporate Centre (RAK ICC) is your gateway to seamless international business operations, offering a secure and reputable jurisdiction for global entrepreneurs and investors. With flexible regulations, tax-free benefits, and a strong legal framework aligned with international standards, RAK ICC is ideal for asset protection, wealth management, international holding structures, and business expansion — all while ensuring confidentiality and operational efficiency.
+            </p>
+          </div>
+        </div>
+      </section>
 
       {/* Offer Section */}
       <section style={{ background: '#f7fafd', padding: '48px 0 32px 0' }}>

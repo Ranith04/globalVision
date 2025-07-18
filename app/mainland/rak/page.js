@@ -1,5 +1,4 @@
 import React from 'react';
-import CallbackForm from '../../components/CallbackForm';
 import ContactLeadSection from '../../components/ContactLeadSection';
 import Navbar from '../../components/Navbar';
 
@@ -34,18 +33,25 @@ export default function RAKMainlandPage() {
           opacity: 0.25,
           zIndex: 1
         }} />
-        <div className="hero-content-wrapper" style={{ position: 'relative', zIndex: 2, display: 'flex', justifyContent: 'space-between', alignItems: 'center', maxWidth: 1200, margin: '0 auto', padding: '0 40px', minHeight: '100vh' }}>
-          <div className="hero-content" style={{ flex: 1, color: '#fff', textAlign: 'left', paddingRight: 20, maxWidth: 600 }}>
-            <h1 className="hero-title" style={{ fontFamily: 'Playfair Display, serif', fontSize: '3.2rem', fontWeight: 700, color: '#fff', lineHeight: 1.1, marginBottom: 18 }}>
-              Business Setup in<br />RAK Mainland
+         <div style={{
+           position: 'relative',
+           zIndex: 2,
+           display: 'flex',
+           justifyContent: 'flex-start',
+           alignItems: 'center',
+           width: '100%',
+           maxWidth: 1200,
+           margin: '0 auto',
+           padding: '0 60px',
+        }}>
+           {/* Left-aligned: Heading and Description */}
+           <div style={{ color: '#fff', textAlign: 'left', maxWidth: 900 }}>
+            <h1 style={{ fontFamily: 'Playfair Display, serif', fontSize: '3.2rem', fontWeight: 700, lineHeight: 1.2, marginBottom: 24 }}>
+            Umm Al Quwain Mainland<br />Company Formation
             </h1>
-            <p className="hero-subtitle" style={{ fontFamily: 'Montserrat, Arial, sans-serif', fontSize: '1.25rem', color: '#d1d5db', marginBottom: 36, fontWeight: 400 }}>
-              Your gateway to unlimited business opportunities in Ras Al Khaimah with over a decade of expertise and 500+ successful launches.
-            </p>
-            <a href="#contact" className="hero-cta-btn" style={{ background: '#1ec6b6', color: '#fff', padding: '14px 38px', borderRadius: 30, fontWeight: 700, fontSize: '1.15rem', textDecoration: 'none', display: 'inline-block', marginTop: 10 }}>Start Your Company</a>
-          </div>
-          <div style={{ minWidth: 350, maxWidth: 400 }}>
-            <CallbackForm />
+            <p style={{ fontFamily: 'Montserrat, Arial, sans-serif', fontSize: '1.1rem', color: '#ffffff', marginBottom: 0, fontWeight: 400, lineHeight: 1.7, opacity: 0.95 }}>
+            Umm Al Quwain Mainland, regulated by the UAQ Department of Economic Development, is a growing business destination offering affordable setup costs and simplified regulations. Known for its investor-friendly policies, UAQ provides full foreign ownership in various sectors, flexible licensing options, and minimal bureaucratic hurdles. Its strategic coastal location supports industries like manufacturing, trading, logistics, and maritime services. With easy access to other emirates and major transport links, UAQ Mainland is ideal for startups, SMEs, and international businesses seeking a low-cost, high-potential base in the UAE. Government support, modern infrastructure, and a pro-business environment make UAQ a smart choice for expansion.
+              </p>
           </div>
         </div>
       </section>
@@ -246,77 +252,7 @@ export default function RAKMainlandPage() {
           </div>
         </div>
       </section>
-      {/* Our Packages Section */}
-      <section style={{ background: '#fdf7f3', padding: '56px 0 36px 0' }}>
-        <div style={{ maxWidth: 1100, margin: '0 auto', padding: '0 32px' }}>
-          <h2 style={{ textAlign: 'center', fontWeight: 700, fontSize: '2rem', marginBottom: 8, fontFamily: 'Montserrat, Arial, sans-serif', color: '#222' }}>
-            Our Packages
-          </h2>
-          <p style={{ textAlign: 'center', color: '#444', marginBottom: 40, fontFamily: 'Montserrat, Arial, sans-serif', fontWeight: 400, fontSize: 17 }}>
-            Transparent pricing for every business need
-          </p>
-          <div className="packages-row" style={{ display: 'flex', flexDirection: 'row', gap: 32, justifyContent: 'center', alignItems: 'stretch', flexWrap: 'nowrap' }}>
-            {/* RAK E-Commerce License */}
-            <div style={{ background: '#fff', border: '2px solid #1ec6b6', borderRadius: 18, padding: '36px 32px', minWidth: 260, maxWidth: 320, flex: '1 1 300px', textAlign: 'center', boxShadow: '0 2px 8px rgba(30,198,182,0.04)', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
-              <div>
-                <div style={{ fontWeight: 700, fontSize: 18, marginBottom: 18, color: '#222', fontFamily: 'Montserrat, Arial, sans-serif' }}>E-Commerce License</div>
-                <div style={{ background: '#1ec6b6', color: '#fff', borderRadius: 22, display: 'inline-block', padding: '6px 28px', fontWeight: 700, fontSize: 22, marginBottom: 18, fontFamily: 'Montserrat, Arial, sans-serif' }}>AED 4,999</div>
-                <ul style={{ color: '#444', fontSize: 15, fontFamily: 'Montserrat, Arial, sans-serif', paddingLeft: 0, margin: '18px 0 28px 0', listStyle: 'none', textAlign: 'left' }}>
-                  <li style={{ marginBottom: 14 }}>3 Free Business Activities</li>
-                  <li style={{ marginBottom: 14 }}>100% Ownership</li>
-                  <li style={{ marginBottom: 14 }}>Free Co-Working Space</li>
-                  <li style={{ marginBottom: 14 }}>Free Business Address</li>
-                  <li style={{ marginBottom: 14 }}>Shared PO Box</li>
-                  <li>File Desk Lease Agreement</li>
-                </ul>
-              </div>
-              <button style={{ border: '1.5px solid #1ec6b6', background: 'none', color: '#1ec6b6', borderRadius: 22, padding: '8px 32px', fontWeight: 600, fontSize: 16, cursor: 'pointer', fontFamily: 'Montserrat, Arial, sans-serif', marginTop: 'auto' }}>View all</button>
-            </div>
-            {/* RAK Mainland License */}
-            <div style={{ background: '#fff', border: '2px solid #1ec6b6', borderRadius: 18, padding: '36px 32px', minWidth: 260, maxWidth: 320, flex: '1 1 300px', textAlign: 'center', boxShadow: '0 2px 8px rgba(30,198,182,0.04)', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
-              <div>
-                <div style={{ fontWeight: 700, fontSize: 18, marginBottom: 18, color: '#222', fontFamily: 'Montserrat, Arial, sans-serif' }}>RAK Mainland License</div>
-                <div style={{ background: '#1ec6b6', color: '#fff', borderRadius: 22, display: 'inline-block', padding: '6px 28px', fontWeight: 700, fontSize: 22, marginBottom: 18, fontFamily: 'Montserrat, Arial, sans-serif' }}>AED 9,999</div>
-                <ul style={{ color: '#444', fontSize: 15, fontFamily: 'Montserrat, Arial, sans-serif', paddingLeft: 0, margin: '18px 0 28px 0', listStyle: 'none', textAlign: 'left' }}>
-                  <li style={{ marginBottom: 14 }}>1 Investor Visa</li>
-                  <li style={{ marginBottom: 14 }}>Professional Trade License</li>
-                  <li style={{ marginBottom: 14 }}>100% Ownership</li>
-                  <li style={{ marginBottom: 14 }}>PRO service</li>
-                  <li style={{ marginBottom: 14 }}>Establishment Cards</li>
-                  <li>Local Sponsor Free</li>
-                </ul>
-              </div>
-              <button style={{ border: '1.5px solid #1ec6b6', background: 'none', color: '#1ec6b6', borderRadius: 22, padding: '8px 32px', fontWeight: 600, fontSize: 16, cursor: 'pointer', fontFamily: 'Montserrat, Arial, sans-serif', marginTop: 'auto' }}>View all</button>
-            </div>
-            {/* RAK Freezone License */}
-            <div style={{ background: '#fff', border: '2px solid #1ec6b6', borderRadius: 18, padding: '36px 32px', minWidth: 260, maxWidth: 320, flex: '1 1 300px', textAlign: 'center', boxShadow: '0 2px 8px rgba(30,198,182,0.04)', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
-              <div>
-                <div style={{ fontWeight: 700, fontSize: 18, marginBottom: 18, color: '#222', fontFamily: 'Montserrat, Arial, sans-serif' }}>RAK Freezone License</div>
-                <div style={{ background: '#1ec6b6', color: '#fff', borderRadius: 22, display: 'inline-block', padding: '6px 28px', fontWeight: 700, fontSize: 22, marginBottom: 18, fontFamily: 'Montserrat, Arial, sans-serif' }}>AED 7,500</div>
-                <ul style={{ color: '#444', fontSize: 15, fontFamily: 'Montserrat, Arial, sans-serif', paddingLeft: 0, margin: '18px 0 28px 0', listStyle: 'none', textAlign: 'left' }}>
-                  <li style={{ marginBottom: 14 }}>1 Free Visa for Life (Eligibility)</li>
-                  <li style={{ marginBottom: 14 }}>3 Free Business Activities</li>
-                  <li style={{ marginBottom: 14 }}>100% Ownership</li>
-                  <li style={{ marginBottom: 14 }}>Free Co-Working Space</li>
-                  <li style={{ marginBottom: 14 }}>Free Business Address</li>
-                  <li style={{ marginBottom: 14 }}>Shared PO Box</li>
-                  <li>File Desk Lease Agreement</li>
-                </ul>
-              </div>
-              <button style={{ border: '1.5px solid #1ec6b6', background: 'none', color: '#1ec6b6', borderRadius: 22, padding: '8px 32px', fontWeight: 600, fontSize: 16, cursor: 'pointer', fontFamily: 'Montserrat, Arial, sans-serif', marginTop: 'auto' }}>View all</button>
-            </div>
-          </div>
-          <style>{`
-            @media (max-width: 900px) {
-              .packages-row {
-                flex-direction: column !important;
-                gap: 24px !important;
-                align-items: center !important;
-              }
-            }
-          `}</style>
-        </div>
-      </section>
+       
       {/* Client Success Stories Section */}
       <section style={{ background: '#f6fafc', padding: '56px 0 36px 0' }}>
         <div style={{ maxWidth: 1100, margin: '0 auto', padding: '0 32px' }}>

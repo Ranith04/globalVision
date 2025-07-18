@@ -1,19 +1,54 @@
 import Image from 'next/image';
 import ContactLeadSection from '../../components/ContactLeadSection';
-import FreezoneHeroWithForm from '../../components/FreezoneHeroWithForm';
 import Navbar from '../../components/Navbar';
 
 export default function GoldenVisaPage() {
   return (
     <div style={{ background: '#f7f7f7' }}>
       <Navbar />
-      <FreezoneHeroWithForm
-        title={"UAE Golden Visa"}
-        description={"Secure your long-term residency in the UAE with the prestigious Golden Visa program. Expert assistance for eligibility, application, and approval."}
-        ctaText="Apply for Golden Visa"
-        ctaHref="#callback-form"
-        backgroundImage="/images/Background-services.jpg"
-      />
+      {/* Simple Hero Section without form */}
+      <section style={{
+        minHeight: '80vh',
+        display: 'flex',
+        alignItems: 'flex-start',
+        justifyContent: 'center',
+        background: 'linear-gradient(120deg, #0f9d8f 0%, #0e3c5d 100%)',
+        position: 'relative',
+        padding: '80px 0 0 0'
+      }}>
+        {/* Background cityscape overlay */}
+        <div style={{
+          position: 'absolute',
+          top: 0,
+          left: 0,
+          width: '100%',
+          height: '100%',
+          background: 'url(/images/Background-services.jpg) center/cover no-repeat',
+          opacity: 0.35,
+          zIndex: 1
+        }} />
+         <div style={{
+           position: 'relative',
+           zIndex: 2,
+           display: 'flex',
+           justifyContent: 'flex-start',
+           alignItems: 'center',
+           width: '100%',
+           maxWidth: 1200,
+           margin: '0 auto',
+           padding: '0 60px',
+        }}>
+           {/* Left-aligned: Heading and Description */}
+           <div style={{ color: '#fff', textAlign: 'left', maxWidth: 900 }}>
+            <h1 style={{ fontFamily: 'Playfair Display, serif', fontSize: '3.2rem', fontWeight: 700, lineHeight: 1.2, marginBottom: 40 }}>
+              UAE Golden Visa
+            </h1>
+            <p style={{ fontFamily: 'Montserrat, Arial, sans-serif', fontSize: '1.1rem', color: '#ffffff', marginBottom: 0, fontWeight: 400, lineHeight: 1.7, opacity: 0.95 }}>
+            Secure your future in the UAE with our expert Golden Visa services. We offer complete guidance and support for individuals looking to obtain long-term residency through the UAE Golden Visa program. Whether you qualify with a monthly salary of AED 30,000, or through investment opportunities, real estate ownership, entrepreneurship, or specialized talent, our team ensures a smooth, hassle-free application process.
+            </p>
+          </div>
+        </div>
+      </section>
 
       {/* Gateway Section */}
       <section style={{ background: '#E0E3EA', padding: '60px 0' }}>

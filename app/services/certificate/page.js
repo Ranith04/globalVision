@@ -1,18 +1,54 @@
 import ContactLeadSection from '../../components/ContactLeadSection';
-import FreezoneHeroWithForm from '../../components/FreezoneHeroWithForm';
 import Navbar from '../../components/Navbar';
 
 export default function CertificatePage() {
   return (
     <>
       <Navbar />
-      <FreezoneHeroWithForm
-        title={"Certificate Attestation Services"}
-        description={"Get your documents attested for use in the UAE and abroad. Fast, reliable, and government-approved attestation for all certificate types."}
-        ctaText="Get Attestation"
-        ctaHref="#callback-form"
-        backgroundImage="/images/Background-services.jpg"
-      />
+      {/* Simple Hero Section without form */}
+      <section style={{
+        minHeight: '80vh',
+        display: 'flex',
+        alignItems: 'flex-start',
+        justifyContent: 'center',
+        background: 'linear-gradient(120deg, #0f9d8f 0%, #0e3c5d 100%)',
+        position: 'relative',
+        padding: '80px 0 0 0'
+      }}>
+        {/* Background cityscape overlay */}
+        <div style={{
+          position: 'absolute',
+          top: 0,
+          left: 0,
+          width: '100%',
+          height: '100%',
+          background: 'url(/images/Background-services.jpg) center/cover no-repeat',
+          opacity: 0.35,
+          zIndex: 1
+        }} />
+         <div style={{
+           position: 'relative',
+           zIndex: 2,
+           display: 'flex',
+           justifyContent: 'flex-start',
+           alignItems: 'center',
+           width: '100%',
+           maxWidth: 1200,
+           margin: '0 auto',
+           padding: '0 60px',
+        }}>
+           {/* Left-aligned: Heading and Description */}
+           <div style={{ color: '#fff', textAlign: 'left', maxWidth: 900 }}>
+            <h1 style={{ fontFamily: 'Playfair Display, serif', fontSize: '3.2rem', fontWeight: 700, lineHeight: 1.2, marginBottom: 40 }}>
+              UAE Certificate Attestation
+            </h1>
+            <p style={{ fontFamily: 'Montserrat, Arial, sans-serif', fontSize: '1.1rem', color: '#ffffff', marginBottom: 0, fontWeight: 400, lineHeight: 1.7, opacity: 0.95 }}>
+            Professional document attestation and legalization services for the UAE.
+             We specialize in handling birth, marriage, educational, and commercial certificates with precision and efficiency. Whether for employment, residency, or business setup, our expert team ensures your documents are attested and legalized in full compliance with UAE and international requirements.
+            </p>
+          </div>
+        </div>
+      </section>
       {/* Gateway Section */}
       <section style={{  background: '#E0E3EA', padding: '60px 0' }}>
         <div style={{ maxWidth: 1200, margin: '0 auto', display: 'flex', alignItems: 'center', gap: 48, padding: '0 32px' }}>
@@ -20,7 +56,7 @@ export default function CertificatePage() {
             <h2 style={{ fontSize: '2.8rem', fontWeight: 700, marginBottom: 18, color: '#179e9e' }}>Certificate Attestation Services</h2>
           </div>
           <div style={{ flex: 1, minWidth: 500, maxWidth: 500, padding: '12px' }}>
-            <img src="/images/Background+Border+Shadow (4).png" alt="Dubai Skyline" style={{ borderRadius: 16, width: '100%', height: 'auto' }} />
+            <img src="/images/Background-Border-Shadow-4.png" alt="Dubai Skyline" style={{ borderRadius: 16, width: '100%', height: 'auto' }} />
           </div>
         </div>
       </section>

@@ -9,7 +9,7 @@ export default function Stats() {
         </div>
         <div className="stats__item">
           <span className="stats__number">50+</span>
-          <span className="stats__label">Expert Architects</span>
+          <span className="stats__label">Advisors</span>
         </div>
         <div className="stats__item">
           <span className="stats__number">10+</span>

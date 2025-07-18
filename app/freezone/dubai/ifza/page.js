@@ -2,20 +2,45 @@ import React from 'react';
 import { FaBalanceScale, FaBriefcase, FaCertificate, FaChartLine, FaCheckCircle, FaCog, FaCreditCard, FaExchangeAlt, FaFileAlt, FaLaptop, FaLaptopCode, FaLayerGroup, FaMapMarkerAlt, FaMoneyBillWave, FaPassport, FaRegBuilding, FaRegCheckCircle, FaRocket, FaUser, FaUserCheck, FaUserFriends, FaUsers } from 'react-icons/fa';
 import ContactLeadSection from '../../../components/ContactLeadSection';
 import FAQList from '../../../components/FAQList';
-import FreezoneHeroWithForm from '../../../components/FreezoneHeroWithForm';
 import Navbar from '../../../components/Navbar';
 
 export default function IFZAFreezonePage() {
   return (
     <>
       <Navbar />
-      <FreezoneHeroWithForm
-        title={"International Free Zone\nAuthority (IFZA) Business\nSetup"}
-        description={"Set up your business in IFZA Dubai – just 20 minutes from Dubai International Airport and Downtown Dubai. Join an innovation-focused ecosystem designed for international investors."}
-        ctaText="Start Your IFZA Company"
-        ctaHref="#callback-form"
-          backgroundImage="/images/Background-services.jpg"
-      />
+      <section className="hero-section" style={{ position: 'relative', minHeight: '100vh', padding: 0, background: 'linear-gradient(120deg, #0f9d8f 0%, #0e3c5d 100%)' }}>
+        <div style={{
+          position: 'absolute',
+          top: 0,
+          left: 0,
+          width: '100vw',
+          height: '100vh',
+          background: 'url(/images/Background-services.jpg) center/cover no-repeat',
+          opacity: 0.25,
+          zIndex: 1
+        }} />
+         <div style={{
+           position: 'relative',
+           zIndex: 2,
+           display: 'flex',
+           justifyContent: 'flex-start',
+           alignItems: 'center',
+           width: '100%',
+           maxWidth: 1200,
+           margin: '0 auto',
+           padding: '0 60px',
+        }}>
+           {/* Left-aligned: Heading and Description */}
+           <div style={{ color: '#fff', textAlign: 'left', maxWidth: 900 }}>
+            <h1 style={{ fontFamily: 'Playfair Display, serif', fontSize: '3.2rem', fontWeight: 700, lineHeight: 1.2, marginBottom: 24 }}>
+              RAK ICC Offshore<br />Company Formation
+            </h1>
+            <p style={{ fontFamily: 'Montserrat, Arial, sans-serif', fontSize: '1.1rem', color: '#ffffff', marginBottom: 0, fontWeight: 400, lineHeight: 1.7, opacity: 0.95 }}>
+            Set up your business in IFZA Dubai, a fast-growing free zone located just 20 minutes from Dubai International Airport and Downtown Dubai. Known for its business-friendly environment and streamlined setup process, IFZA offers flexible license packages, cost-effective solutions, and 100% foreign ownership. It's an innovation-focused ecosystem ideal for global entrepreneurs, SMEs, and startups seeking a strategic gateway to the Middle East, Africa, and beyond. With modern infrastructure, strong regulatory support, and access to a global business network, IFZA empowers investors to launch, operate, and scale their ventures seamlessly in one of Dubai’s most dynamic commercial hubs.
+            </p>
+          </div>
+        </div>
+      </section>
       {/* Why Choose IFZA Dubai Section */}
       <section style={{ background: '#f7fafd', padding: '64px 0', borderTop: '1px solid #e6ecf1' }}>
         <div style={{ maxWidth: 1200, margin: '0 auto', padding: '0 16px' }}>

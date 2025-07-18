@@ -1,4 +1,3 @@
-import CallbackForm from '../../components/CallbackForm';
 import ContactLeadSection from '../../components/ContactLeadSection';
 import FAQList from '../../components/FAQList';
 import Navbar from '../../components/Navbar';
@@ -35,18 +34,25 @@ export default function SharjahMainlandPage() {
           opacity: 0.25,
           zIndex: 1
         }} />
-        <div className="hero-content-wrapper" style={{ position: 'relative', zIndex: 2, display: 'flex', justifyContent: 'space-between', alignItems: 'center', maxWidth: 1200, margin: '0 auto', padding: '0 40px', minHeight: '100vh' }}>
-          <div className="hero-content" style={{ flex: 1, color: '#fff', textAlign: 'left', paddingRight: 20, maxWidth: 600 }}>
-            <h1 className="hero-title" style={{ fontFamily: 'Playfair Display, serif', fontSize: '3.2rem', fontWeight: 700, color: '#fff', lineHeight: 1.1, marginBottom: 18 }}>
-              Business Setup in<br />Sharjah Mainland
+         <div style={{
+           position: 'relative',
+           zIndex: 2,
+           display: 'flex',
+           justifyContent: 'flex-start',
+           alignItems: 'center',
+           width: '100%',
+           maxWidth: 1200,
+           margin: '0 auto',
+           padding: '0 60px',
+        }}>
+           {/* Left-aligned: Heading and Description */}
+           <div style={{ color: '#fff', textAlign: 'left', maxWidth: 900 }}>
+            <h1 style={{ fontFamily: 'Playfair Display, serif', fontSize: '3.2rem', fontWeight: 700, lineHeight: 1.2, marginBottom: 24 }}>
+            Sharjah Mainland<br />Company Formation
             </h1>
-            <p className="hero-subtitle" style={{ fontFamily: 'Montserrat, Arial, sans-serif', fontSize: '1.25rem', color: '#d1d5db', marginBottom: 36, fontWeight: 400 }}>
-              Your trusted partner for establishing and growing your business in the UAE's most dynamic market.
-            </p>
-            <a href="#contact" className="hero-cta-btn" style={{ background: '#1ec6b6', color: '#fff', padding: '14px 38px', borderRadius: 30, fontWeight: 700, fontSize: '1.15rem', textDecoration: 'none', display: 'inline-block', marginTop: 10 }}>Start Your Company</a>
-          </div>
-          <div style={{ minWidth: 350, maxWidth: 400 }}>
-            <CallbackForm />
+            <p style={{ fontFamily: 'Montserrat, Arial, sans-serif', fontSize: '1.1rem', color: '#ffffff', marginBottom: 0, fontWeight: 400, lineHeight: 1.7, opacity: 0.95 }}>
+            Sharjah Mainland is a key business jurisdiction in the UAE regulated by the Sharjah Economic Development Department (SEDD). It offers companies the flexibility to operate across the UAE without geographical restrictions, making it ideal for businesses targeting both local and international markets. With affordable setup costs, access to a wide range of business activities, and strategic proximity to major ports and airports, Sharjah Mainland is a preferred choice for startups, SMEs, and global enterprises looking for a cost-effective yet powerful business base in the UAE.
+             </p>
           </div>
         </div>
       </section>
@@ -153,127 +159,6 @@ export default function SharjahMainlandPage() {
                 <li>UAE partner required</li>
                 <li>Joint liability</li>
               </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* Process of Business Setup Section */}
-      <section style={{ background: '#f3f7fa', padding: '60px 0' }}>
-        <div style={{ maxWidth: 1100, margin: '0 auto', padding: '0 20px', display: 'flex', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'center', gap: 48 }}>
-          <div style={{ flex: '1 1 380px', minWidth: 320, maxWidth: 480 }}>
-            <h2 style={{ fontFamily: 'Montserrat, Arial, sans-serif', fontWeight: 700, fontSize: '2rem', color: '#222', marginBottom: 8, textAlign: 'left' }}>
-              Process of Business Setup in Sharjah Mainland
-            </h2>
-            <p style={{ color: '#6b7a86', fontSize: 16, fontFamily: 'Montserrat, Arial, sans-serif', marginBottom: 32, textAlign: 'left' }}>
-              Our streamlined 6-step process ensures your business is established efficiently and compliantly.
-            </p>
-            <div style={{ display: 'flex', flexDirection: 'column', gap: 18 }}>
-              {/* Step 1 */}
-              <div style={{ display: 'flex', alignItems: 'flex-start', gap: 16 }}>
-                <span style={{ background: '#1ec6b6', color: '#fff', borderRadius: '50%', width: 36, height: 36, display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 700, fontSize: 17, fontFamily: 'Montserrat, Arial, sans-serif', marginTop: 2 }}>01</span>
-                <div>
-                  <div style={{ fontWeight: 600, fontSize: '1.08rem', fontFamily: 'Montserrat, Arial, sans-serif', color: '#222' }}>Business Activity</div>
-                  <div style={{ color: '#444', fontSize: 15, fontFamily: 'Montserrat, Arial, sans-serif' }}>Define your core operations and validate with SEDO's approved activity list.</div>
-                </div>
-              </div>
-              {/* Step 2 */}
-              <div style={{ display: 'flex', alignItems: 'flex-start', gap: 16 }}>
-                <span style={{ background: '#1ec6b6', color: '#fff', borderRadius: '50%', width: 36, height: 36, display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 700, fontSize: 17, fontFamily: 'Montserrat, Arial, sans-serif', marginTop: 2 }}>02</span>
-                <div>
-                  <div style={{ fontWeight: 600, fontSize: '1.08rem', fontFamily: 'Montserrat, Arial, sans-serif', color: '#222' }}>Trade Name</div>
-                  <div style={{ color: '#444', fontSize: 15, fontFamily: 'Montserrat, Arial, sans-serif' }}>Reserve a compliant and unique company name with SEDO approval.</div>
-                </div>
-              </div>
-              {/* Step 3 */}
-              <div style={{ display: 'flex', alignItems: 'flex-start', gap: 16 }}>
-                <span style={{ background: '#1ec6b6', color: '#fff', borderRadius: '50%', width: 36, height: 36, display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 700, fontSize: 17, fontFamily: 'Montserrat, Arial, sans-serif', marginTop: 2 }}>03</span>
-                <div>
-                  <div style={{ fontWeight: 600, fontSize: '1.08rem', fontFamily: 'Montserrat, Arial, sans-serif', color: '#222' }}>Initial Approval</div>
-                  <div style={{ color: '#444', fontSize: 15, fontFamily: 'Montserrat, Arial, sans-serif' }}>Obtain preliminary clearance and documentation requirements.</div>
-                </div>
-              </div>
-              {/* Step 4 */}
-              <div style={{ display: 'flex', alignItems: 'flex-start', gap: 16 }}>
-                <span style={{ background: '#1ec6b6', color: '#fff', borderRadius: '50%', width: 36, height: 36, display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 700, fontSize: 17, fontFamily: 'Montserrat, Arial, sans-serif', marginTop: 2 }}>04</span>
-                <div>
-                  <div style={{ fontWeight: 600, fontSize: '1.08rem', fontFamily: 'Montserrat, Arial, sans-serif', color: '#222' }}>Documentation</div>
-                  <div style={{ color: '#444', fontSize: 15, fontFamily: 'Montserrat, Arial, sans-serif' }}>Prepare and notarize MOA/AA, submit passports and lease agreements.</div>
-                </div>
-              </div>
-              {/* Step 5 */}
-              <div style={{ display: 'flex', alignItems: 'flex-start', gap: 16 }}>
-                <span style={{ background: '#1ec6b6', color: '#fff', borderRadius: '50%', width: 36, height: 36, display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 700, fontSize: 17, fontFamily: 'Montserrat, Arial, sans-serif', marginTop: 2 }}>05</span>
-                <div>
-                  <div style={{ fontWeight: 600, fontSize: '1.08rem', fontFamily: 'Montserrat, Arial, sans-serif', color: '#222' }}>Special Approvals</div>
-                  <div style={{ color: '#444', fontSize: 15, fontFamily: 'Montserrat, Arial, sans-serif' }}>Obtain external approvals for regulated business activities.</div>
-                </div>
-              </div>
-              {/* Step 6 */}
-              <div style={{ display: 'flex', alignItems: 'flex-start', gap: 16 }}>
-                <span style={{ background: '#1ec6b6', color: '#fff', borderRadius: '50%', width: 36, height: 36, display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 700, fontSize: 17, fontFamily: 'Montserrat, Arial, sans-serif', marginTop: 2 }}>06</span>
-                <div>
-                  <div style={{ fontWeight: 600, fontSize: '1.08rem', fontFamily: 'Montserrat, Arial, sans-serif', color: '#222' }}>License</div>
-                  <div style={{ color: '#444', fontSize: 15, fontFamily: 'Montserrat, Arial, sans-serif' }}>Pay government fees and receive your official trade license.</div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div style={{ flex: '1 1 340px', minWidth: 300, maxWidth: 420, display: 'flex', justifyContent: 'center' }}>
-            <img src="/images/sharjah-m1.jpg" alt="Sharjah Process" style={{ width: '100%', borderRadius: 18, objectFit: 'cover', maxHeight: 450, marginTop: 90 }} />
-          </div>
-        </div>
-      </section>
-      {/* Packages Section */}
-      <section style={{ background: '#f3f7fa', padding: '60px 0 40px 0' }}>
-        <div style={{ maxWidth: 1100, margin: '0 auto', padding: '0 20px' }}>
-          <h2 style={{ fontFamily: 'Montserrat, Arial, sans-serif', fontWeight: 700, fontSize: '2rem', color: '#222', textAlign: 'center', marginBottom: 8 }}>
-            Setup Your Business with Global Vision
-          </h2>
-          <p style={{ color: '#6b7a86', fontSize: 16, fontFamily: 'Montserrat, Arial, sans-serif', textAlign: 'center', marginBottom: 40 }}>
-            Choose from our carefully crafted packages designed to meet different business needs and budgets.
-          </p>
-          <div style={{ display: 'flex', justifyContent: 'center', gap: 32, flexWrap: 'wrap' }}>
-            {/* Starter Package */}
-            <div style={{ background: '#fff', border: '1.5px solid #1ec6b6', borderRadius: 16, padding: '32px 28px', minWidth: 270, maxWidth: 320, flex: '1 1 270px', display: 'flex', flexDirection: 'column', alignItems: 'center', boxShadow: '0 2px 8px rgba(30,198,182,0.04)' }}>
-              <div style={{ fontWeight: 600, fontSize: '1.18rem', fontFamily: 'Montserrat, Arial, sans-serif', color: '#222', marginBottom: 10 }}>Starter Package</div>
-              <div style={{ color: '#1ec6b6', fontWeight: 700, fontSize: 26, fontFamily: 'Montserrat, Arial, sans-serif', marginBottom: 6 }}>AED 10,999</div>
-              <ul style={{ color: '#444', fontSize: 15, fontFamily: 'Montserrat, Arial, sans-serif', margin: '18px 0 24px 0', padding: 0, listStyle: 'none', textAlign: 'center', lineHeight: 1.7 }}>
-                <li>Perfect for single activity businesses</li>
-                <li>Commercial license (single activity)</li>
-                <li>Initial setup and registration</li>
-                <li>3-month shared office</li>
-                <li>SEDD compliance support</li>
-              </ul>
-              <button style={{ background: '#fff', color: '#1ec6b6', border: '1.5px solid #1ec6b6', borderRadius: 24, padding: '8px 32px', fontWeight: 600, fontFamily: 'Montserrat, Arial, sans-serif', fontSize: 15, cursor: 'pointer', transition: 'background 0.2s', marginTop: 'auto' }}>Get Started</button>
-            </div>
-            {/* Growth Package (Most Popular) */}
-            <div style={{ background: '#fff', border: '2.5px solid #1ec6b6', borderRadius: 16, padding: '38px 28px 32px 28px', minWidth: 270, maxWidth: 320, flex: '1 1 270px', display: 'flex', flexDirection: 'column', alignItems: 'center', boxShadow: '0 4px 16px rgba(30,198,182,0.10)', position: 'relative', zIndex: 1 }}>
-              <div style={{ position: 'absolute', top: -22, left: '50%', transform: 'translateX(-50%)', background: '#1ec6b6', color: '#fff', fontWeight: 600, fontSize: 14, borderRadius: 16, padding: '3px 18px', fontFamily: 'Montserrat, Arial, sans-serif', boxShadow: '0 2px 8px rgba(30,198,182,0.10)' }}>Most Popular</div>
-              <div style={{ fontWeight: 600, fontSize: '1.18rem', fontFamily: 'Montserrat, Arial, sans-serif', color: '#222', marginBottom: 10, marginTop: 10 }}>Growth Package</div>
-              <div style={{ color: '#1ec6b6', fontWeight: 700, fontSize: 26, fontFamily: 'Montserrat, Arial, sans-serif', marginBottom: 6 }}>AED 18,999</div>
-              <ul style={{ color: '#444', fontSize: 15, fontFamily: 'Montserrat, Arial, sans-serif', margin: '18px 0 24px 0', padding: 0, listStyle: 'none', textAlign: 'center', lineHeight: 1.7 }}>
-                <li>Ideal for expanding businesses</li>
-                <li>Multi-activity license</li>
-                <li>1 investor visa application</li>
-                <li>Bank account support</li>
-                <li>Sharjah Islamic Bank support</li>
-                <li>Legal consultation</li>
-              </ul>
-              <button style={{ background: '#fff', color: '#1ec6b6', border: '1.5px solid #1ec6b6', borderRadius: 24, padding: '8px 32px', fontWeight: 600, fontFamily: 'Montserrat, Arial, sans-serif', fontSize: 15, cursor: 'pointer', transition: 'background 0.2s', marginTop: 'auto' }}>Get Started</button>
-            </div>
-            {/* Professional Package */}
-            <div style={{ background: '#fff', border: '1.5px solid #1ec6b6', borderRadius: 16, padding: '32px 28px', minWidth: 270, maxWidth: 320, flex: '1 1 270px', display: 'flex', flexDirection: 'column', alignItems: 'center', boxShadow: '0 2px 8px rgba(30,198,182,0.04)' }}>
-              <div style={{ fontWeight: 600, fontSize: '1.18rem', fontFamily: 'Montserrat, Arial, sans-serif', color: '#222', marginBottom: 10 }}>Professional Package</div>
-              <div style={{ color: '#1ec6b6', fontWeight: 700, fontSize: 26, fontFamily: 'Montserrat, Arial, sans-serif', marginBottom: 6 }}>AED 25,999</div>
-              <ul style={{ color: '#444', fontSize: 15, fontFamily: 'Montserrat, Arial, sans-serif', margin: '18px 0 24px 0', padding: 0, listStyle: 'none', textAlign: 'center', lineHeight: 1.7 }}>
-                <li>Comprehensive solution for enterprises</li>
-                <li>Sector-specific license</li>
-                <li>6-month dedicated office</li>
-                <li>Ministry approvals included</li>
-                <li>Legal documentation support</li>
-                <li>Priority customer service</li>
-              </ul>
-              <button style={{ background: '#fff', color: '#1ec6b6', border: '1.5px solid #1ec6b6', borderRadius: 24, padding: '8px 32px', fontWeight: 600, fontFamily: 'Montserrat, Arial, sans-serif', fontSize: 15, cursor: 'pointer', transition: 'background 0.2s', marginTop: 'auto' }}>Get Started</button>
             </div>
           </div>
         </div>

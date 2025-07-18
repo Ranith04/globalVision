@@ -1,20 +1,45 @@
 import React from 'react';
 import { FaBuilding, FaCheckCircle, FaDollarSign, FaGlobe, FaMapMarkerAlt, FaShieldAlt, FaStar, FaUserCheck, FaUserFriends } from 'react-icons/fa';
 import ContactLeadSection from '../../../components/ContactLeadSection';
-import FreezoneHeroWithForm from '../../../components/FreezoneHeroWithForm';
 import Navbar from '../../../components/Navbar';
 
 export default function DMCCFreezonePage() {
   return (
     <>
       <Navbar />
-      <FreezoneHeroWithForm
-        title={"Dubai Multi Commodities\nCenter (DMCC)"}
-        description={"'Global free zone of the year' established in 2002 - a dynamic waterfront community with 79 towers including the iconic Almas Tower housing Dubai Diamond Exchange."}
-        ctaText="Start Your DMCC Company"
-        ctaHref="#callback-form"
-         backgroundImage="/images/Background-services.jpg"
-      />
+      <section className="hero-section" style={{ position: 'relative', minHeight: '100vh', padding: 0, background: 'linear-gradient(120deg, #0f9d8f 0%, #0e3c5d 100%)' }}>
+        <div style={{
+          position: 'absolute',
+          top: 0,
+          left: 0,
+          width: '100vw',
+          height: '100vh',
+          background: 'url(/images/Background-services.jpg) center/cover no-repeat',
+          opacity: 0.25,
+          zIndex: 1
+        }} />
+         <div style={{
+           position: 'relative',
+           zIndex: 2,
+           display: 'flex',
+           justifyContent: 'flex-start',
+           alignItems: 'center',
+           width: '100%',
+           maxWidth: 1200,
+           margin: '0 auto',
+           padding: '0 60px',
+        }}>
+           {/* Left-aligned: Heading and Description */}
+           <div style={{ color: '#fff', textAlign: 'left', maxWidth: 900 }}>
+            <h1 style={{ fontFamily: 'Playfair Display, serif', fontSize: '3.2rem', fontWeight: 700, lineHeight: 1.2, marginBottom: 24 }}>
+              Dubai Multi Commodities Centre<br />Company Formation
+            </h1>
+            <p style={{ fontFamily: 'Montserrat, Arial, sans-serif', fontSize: '1.1rem', color: '#ffffff', marginBottom: 0, fontWeight: 400, lineHeight: 1.7, opacity: 0.95 }}>
+            Awarded the title of ‘Global Free Zone of the Year’, this thriving business hub features 79 state-of-the-art towers, including the iconic Almas Tower, which houses the renowned Dubai Diamond Exchange. Strategically located within a lively waterfront community, it combines premium office spaces with residential, retail, and leisure options. The zone offers unmatched infrastructure, global business connectivity, and a supportive regulatory environment, making it a preferred destination for multinational companies, startups, and entrepreneurs. Its dynamic ecosystem fosters innovation, collaboration, and growth—positioning it as one of the most sought-after free zones in Dubai for long-term business success.
+            </p>
+          </div>
+        </div>
+      </section>
       {/* DMCC Location & Overview Section */}
       <section style={{ background: '#f7fafd', padding: '56px 0 56px 0', borderTop: '1px solid #e6ecf1' }}>
         <div style={{ maxWidth: 1100, margin: '0 auto', padding: '0 16px' }}>

@@ -1,5 +1,4 @@
 import React from 'react';
-import CallbackForm from '../../components/CallbackForm';
 import ContactLeadSection from '../../components/ContactLeadSection';
 import FAQList from '../../components/FAQList';
 import Navbar from '../../components/Navbar';
@@ -36,14 +35,25 @@ export default function AbuDhabiMainlandPage() {
           opacity: 0.25,
           zIndex: 1
         }} />
-        <div className="hero-content-wrapper" style={{ position: 'relative', zIndex: 3 }}>
-          <div className="hero-content">
-            <h1 className="hero-title">Business Setup in<br />Abu Dhabi Mainland</h1>
-            <p className="hero-subtitle">Your trusted partner for establishing and growing your business in the UAE's most dynamic market.</p>
-            <a href="#contact" className="hero-cta-btn" style={{background: '#1ec6b6'}}>Start Your Company</a>
-          </div>
-          <div style={{ minWidth: 350, maxWidth: 400 }}>
-            <CallbackForm />
+        <div style={{
+           position: 'relative',
+           zIndex: 2,
+           display: 'flex',
+           justifyContent: 'flex-start',
+           alignItems: 'center',
+           width: '100%',
+           maxWidth: 1200,
+           margin: '0 auto',
+           padding: '0 60px',
+        }}>
+           {/* Left-aligned: Heading and Description */}
+           <div style={{ color: '#fff', textAlign: 'left', maxWidth: 900 }}>
+            <h1 style={{ fontFamily: 'Playfair Display, serif', fontSize: '3.2rem', fontWeight: 700, lineHeight: 1.2, marginBottom: 24 }}>
+            Abu Dhabi Mainland<br />Company Formation
+            </h1>
+            <p style={{ fontFamily: 'Montserrat, Arial, sans-serif', fontSize: '1.1rem', color: '#ffffff', marginBottom: 0, fontWeight: 400, lineHeight: 1.7, opacity: 0.95 }}>
+            Abu Dhabi Mainland, regulated by the Abu Dhabi Department of Economic Development (ADDED), is a premier business hub offering companies unrestricted access to local and international markets. With its robust infrastructure, investor-friendly regulations, and flexible licensing options, it caters to startups, SMEs, and global enterprises alike. The region provides a stable economic environment, competitive operational costs, and access to a skilled workforce, making it ideal for businesses across sectors such as technology, finance, healthcare, and logistics. Its strategic location and supportive ecosystem position Abu Dhabi Mainland as a top destination for sustainable business growth.
+            </p>
           </div>
         </div>
       </section>
@@ -231,75 +241,7 @@ export default function AbuDhabiMainlandPage() {
           </div>
         </div>
       </section>
-      {/* Business Packages Section */}
-      <section style={{ background: '#fff', padding: '60px 0' }}>
-        <div style={{ maxWidth: 1200, margin: '0 auto', padding: '0 20px' }}>
-          <h2 style={{ textAlign: 'center', fontWeight: 700, fontSize: '2rem', marginBottom: 10, fontFamily: 'Georgia, serif', color: '#222' }}>
-            Setup Your Business with Global Vision
-          </h2>
-          <p style={{ textAlign: 'center', color: '#444', marginBottom: 40, fontSize: 17, fontFamily: 'Inter, Arial, sans-serif' }}>
-            Choose from our carefully crafted packages designed to meet different business needs and budgets in Abu Dhabi.
-          </p>
-          <div style={{ display: 'flex', flexWrap: 'wrap', gap: 32, justifyContent: 'center' }}>
-            {/* Starter Package */}
-            <div style={{ background: '#fff', border: '2px solid #1ec6b6', borderRadius: 16, padding: 32, minWidth: 280, maxWidth: 340, flex: '1 1 300px', textAlign: 'center', boxShadow: '0 2px 12px rgba(0,0,0,0.04)' }}>
-              <h3 style={{ fontWeight: 600, fontSize: '1.25rem', fontFamily: 'Georgia, serif', marginBottom: 18 }}>Starter Package</h3>
-              <div style={{ marginBottom: 18 }}>
-                <span style={{ background: '#1ec6b6', color: '#fff', borderRadius: 24, padding: '7px 22px', fontWeight: 700, fontSize: 22, fontFamily: 'Inter, Arial, sans-serif', display: 'inline-block' }}>AED <span style={{ fontSize: 24, fontWeight: 700 }}>10,999</span></span>
-              </div>
-              <div style={{ color: '#444', fontSize: 15, marginBottom: 18, fontFamily: 'Inter, Arial, sans-serif' }}>
-                Perfect for single activity businesses
-              </div>
-              <ul style={{ color: '#222', fontSize: 15, textAlign: 'left', margin: '0 0 24px 0', padding: '0 0 0 18px', fontFamily: 'Inter, Arial, sans-serif' }}>
-                <li>Commercial license (single activity)</li>
-                <li>Initial setup and registration</li>
-                <li>3-month shared office</li>
-                <li>SEDD compliance support</li>
-              </ul>
-              <button style={{ background: '#fff', color: '#1ec6b6', border: '1.5px solid #1ec6b6', borderRadius: 24, padding: '8px 28px', fontWeight: 600, fontSize: 15, cursor: 'pointer', fontFamily: 'Inter, Arial, sans-serif', transition: 'background 0.2s, color 0.2s' }}>Get Started</button>
-            </div>
-            {/* Growth Package (Most Popular) */}
-            <div style={{ background: '#fff', border: '2px solid #1ec6b6', borderRadius: 16, padding: 32, minWidth: 280, maxWidth: 340, flex: '1 1 300px', textAlign: 'center', boxShadow: '0 4px 18px rgba(30,198,182,0.12)', position: 'relative', zIndex: 2 }}>
-              <div style={{ position: 'absolute', top: -22, left: '50%', transform: 'translateX(-50%)', background: '#1ec6b6', color: '#fff', borderRadius: 16, padding: '3px 18px', fontSize: 14, fontWeight: 600, fontFamily: 'Inter, Arial, sans-serif', boxShadow: '0 2px 8px rgba(30,198,182,0.10)' }}>
-                Most Popular
-              </div>
-              <h3 style={{ fontWeight: 600, fontSize: '1.25rem', fontFamily: 'Georgia, serif', marginBottom: 18, marginTop: 10 }}>Growth Package</h3>
-              <div style={{ marginBottom: 18 }}>
-                <span style={{ background: '#1ec6b6', color: '#fff', borderRadius: 24, padding: '7px 22px', fontWeight: 700, fontSize: 22, fontFamily: 'Inter, Arial, sans-serif', display: 'inline-block' }}>AED <span style={{ fontSize: 24, fontWeight: 700 }}>18,999</span></span>
-              </div>
-              <div style={{ color: '#444', fontSize: 15, marginBottom: 18, fontFamily: 'Inter, Arial, sans-serif' }}>
-                Ideal for expanding businesses
-              </div>
-              <ul style={{ color: '#222', fontSize: 15, textAlign: 'left', margin: '0 0 24px 0', padding: '0 0 0 18px', fontFamily: 'Inter, Arial, sans-serif' }}>
-                <li>Multi-activity license</li>
-                <li>1 investor visa application</li>
-                <li>Bank account setup</li>
-                <li>Sharjah Islamic Bank support</li>
-                <li>Legal consultation</li>
-              </ul>
-              <button style={{ background: '#fff', color: '#1ec6b6', border: '1.5px solid #1ec6b6', borderRadius: 24, padding: '8px 28px', fontWeight: 600, fontSize: 15, cursor: 'pointer', fontFamily: 'Inter, Arial, sans-serif', transition: 'background 0.2s, color 0.2s' }}>Get Started</button>
-            </div>
-            {/* Professional Package */}
-            <div style={{ background: '#fff', border: '2px solid #1ec6b6', borderRadius: 16, padding: 32, minWidth: 280, maxWidth: 340, flex: '1 1 300px', textAlign: 'center', boxShadow: '0 2px 12px rgba(0,0,0,0.04)' }}>
-              <h3 style={{ fontWeight: 600, fontSize: '1.25rem', fontFamily: 'Georgia, serif', marginBottom: 18 }}>Professional Package</h3>
-              <div style={{ marginBottom: 18 }}>
-                <span style={{ background: '#1ec6b6', color: '#fff', borderRadius: 24, padding: '7px 22px', fontWeight: 700, fontSize: 22, fontFamily: 'Inter, Arial, sans-serif', display: 'inline-block' }}>AED <span style={{ fontSize: 24, fontWeight: 700 }}>25,999</span></span>
-              </div>
-              <div style={{ color: '#444', fontSize: 15, marginBottom: 18, fontFamily: 'Inter, Arial, sans-serif' }}>
-                Comprehensive solution for enterprises
-              </div>
-              <ul style={{ color: '#222', fontSize: 15, textAlign: 'left', margin: '0 0 24px 0', padding: '0 0 0 18px', fontFamily: 'Inter, Arial, sans-serif' }}>
-                <li>Sector-specific license</li>
-                <li>6-month dedicated office</li>
-                <li>Ministry approvals included</li>
-                <li>Legal documentation support</li>
-                <li>Priority customer service</li>
-              </ul>
-              <button style={{ background: '#fff', color: '#1ec6b6', border: '1.5px solid #1ec6b6', borderRadius: 24, padding: '8px 28px', fontWeight: 600, fontSize: 15, cursor: 'pointer', fontFamily: 'Inter, Arial, sans-serif', transition: 'background 0.2s, color 0.2s' }}>Get Started</button>
-            </div>
-          </div>
-        </div>
-      </section>
+       
       {/* Documents Required Section */}
       <section style={{ background: '#f7fafb', padding: '56px 0 48px 0' }}>
         <div style={{ maxWidth: 1100, margin: '0 auto', padding: '0 20px' }}>

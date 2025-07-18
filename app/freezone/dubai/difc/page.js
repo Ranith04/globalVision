@@ -1,20 +1,45 @@
 import React from 'react';
 import { FaBuilding, FaCheckCircle, FaDollarSign, FaGlobe, FaMapMarkerAlt, FaShieldAlt, FaStar, FaUserCheck, FaUserFriends } from 'react-icons/fa';
 import ContactLeadSection from '../../../components/ContactLeadSection';
-import FreezoneHeroWithForm from '../../../components/FreezoneHeroWithForm';
 import Navbar from '../../../components/Navbar';
 
 export default function DIFCFreezonePage() {
   return (
     <>
       <Navbar />
-      <FreezoneHeroWithForm
-        title={"Dubai International\nFinancial Center (DIFC)\nFree Zone"}
-        description={"A popular hub for financial institutions housing over 6,000 companies across finance, wealth management, trading, insurance, retail, and dining sectors."}
-        ctaText="Start Your DIFC Company"
-        ctaHref="#callback-form"
-        backgroundImage="/images/Background-services.jpg"
-      />
+      <section className="hero-section" style={{ position: 'relative', minHeight: '100vh', padding: 0, background: 'linear-gradient(120deg, #0f9d8f 0%, #0e3c5d 100%)' }}>
+        <div style={{
+          position: 'absolute',
+          top: 0,
+          left: 0,
+          width: '100vw',
+          height: '100vh',
+          background: 'url(/images/Background-services.jpg) center/cover no-repeat',
+          opacity: 0.25,
+          zIndex: 1
+        }} />
+         <div style={{
+           position: 'relative',
+           zIndex: 2,
+           display: 'flex',
+           justifyContent: 'flex-start',
+           alignItems: 'center',
+           width: '100%',
+           maxWidth: 1200,
+           margin: '0 auto',
+           padding: '0 60px',
+        }}>
+           {/* Left-aligned: Heading and Description */}
+           <div style={{ color: '#fff', textAlign: 'left', maxWidth: 900 }}>
+            <h1 style={{ fontFamily: 'Playfair Display, serif', fontSize: '3.2rem', fontWeight: 700, lineHeight: 1.2, marginBottom: 24 }}>
+              Dubai International Financial Centre<br />Company Formation
+            </h1>
+            <p style={{ fontFamily: 'Montserrat, Arial, sans-serif', fontSize: '1.1rem', color: '#ffffff', marginBottom: 0, fontWeight: 400, lineHeight: 1.7, opacity: 0.95 }}>
+            A leading hub for financial institutions, this thriving district is home to over 6,000 companies spanning sectors such as finance, wealth management, trading, insurance, retail, and dining. With a business-friendly environment, premium office spaces, and a vibrant mix of corporate and lifestyle offerings, it provides the perfect setting for both business growth and high-quality living.
+            </p>
+          </div>
+        </div>
+      </section>
       {/* Benefits of Business Setup in DIFC Free Zone Section */}
       <section style={{ background: '#f7fafd', padding: '56px 0 56px 0', borderTop: '1px solid #e6ecf1', borderBottom: '8px solid #eaf4fb' }}>
         <div style={{ maxWidth: 1100, margin: '0 auto', padding: '0 16px' }}>

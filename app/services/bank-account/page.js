@@ -1,19 +1,54 @@
 import Image from 'next/image';
 import ContactLeadSection from '../../components/ContactLeadSection';
-import FreezoneHeroWithForm from '../../components/FreezoneHeroWithForm';
 import Navbar from '../../components/Navbar';
 
 export default function BankAccountPage() {
   return (
     <div style={{ background: '#f7f7f7' }}>
       <Navbar />
-      <FreezoneHeroWithForm
-        title={"Open a Business Bank Account in UAE"}
-        description={"Seamless business bank account opening in top UAE banks. Fast approval, expert guidance, and support for all company types."}
-        ctaText="Open Bank Account"
-        ctaHref="#callback-form"
-        backgroundImage="/images/Background-services.jpg"
-      />
+      {/* Simple Hero Section without form */}
+      <section style={{
+        minHeight: '80vh',
+        display: 'flex',
+        alignItems: 'flex-start',
+        justifyContent: 'center',
+        background: 'linear-gradient(120deg, #0f9d8f 0%, #0e3c5d 100%)',
+        position: 'relative',
+        padding: '80px 0 0 0'
+      }}>
+        {/* Background cityscape overlay */}
+        <div style={{
+          position: 'absolute',
+          top: 0,
+          left: 0,
+          width: '100%',
+          height: '100%',
+          background: 'url(/images/Background-services.jpg) center/cover no-repeat',
+          opacity: 0.35,
+          zIndex: 1
+        }} />
+         <div style={{
+           position: 'relative',
+           zIndex: 2,
+           display: 'flex',
+           justifyContent: 'flex-start',
+           alignItems: 'center',
+           width: '100%',
+           maxWidth: 1200,
+           margin: '0 auto',
+           padding: '0 60px',
+        }}>
+           {/* Left-aligned: Heading and Description */}
+           <div style={{ color: '#fff', textAlign: 'left', maxWidth: 900 }}>
+            <h1 style={{ fontFamily: 'Playfair Display, serif', fontSize: '3.2rem', fontWeight: 700, lineHeight: 1.2, marginBottom: 40 }}>
+              UAE Bank Account Opening
+            </h1>
+            <p style={{ fontFamily: 'Montserrat, Arial, sans-serif', fontSize: '1.1rem', color: '#ffffff', marginBottom: 0, fontWeight: 400, lineHeight: 1.7, opacity: 0.95 }}>
+            Navigate the UAE’s strict banking regulations confidently with our expert assistance. We help you open personal and corporate bank accounts with top UAE banks, ensuring full compliance with local laws. From documentation to final approvals, our end-to-end support ensures a smooth, secure, and hassle-free process, allowing you to establish financial credibility and operate with ease.
+            </p>
+          </div>
+        </div>
+      </section>
 
       {/* Open Bank Account Section */}
       <section style={{  background: '#E0E3EA', padding: '48px 0' }}>

@@ -1,5 +1,4 @@
 import React from "react";
-import CallbackForm from "../../../components/CallbackForm";
 import ContactLeadSection from '../../../components/ContactLeadSection';
 import Navbar from "../../../components/Navbar";
 
@@ -36,18 +35,25 @@ export default function RakFreezonePage() {
           opacity: 0.25,
           zIndex: 1
         }} />
-        <div className="hero-content-wrapper" style={{ position: 'relative', zIndex: 2, display: 'flex', justifyContent: 'space-between', alignItems: 'center', maxWidth: 1200, margin: '0 auto', padding: '0 40px', minHeight: '100vh' }}>
-          <div className="hero-content" style={{ flex: 1, color: '#fff', textAlign: 'left', paddingRight: 20, maxWidth: 600 }}>
-            <h1 className="hero-title" style={{ fontFamily: 'Playfair Display, serif', fontSize: '3.2rem', fontWeight: 700, color: '#fff', lineHeight: 1.1, marginBottom: 18 }}>
-              Ras Al Khaimah Economic<br />Free zone (RAKEZ)
+        <div style={{
+           position: 'relative',
+           zIndex: 2,
+           display: 'flex',
+           justifyContent: 'flex-start',
+           alignItems: 'center',
+           width: '100%',
+           maxWidth: 1200,
+           margin: '0 auto',
+           padding: '0 60px',
+        }}>
+           {/* Left-aligned: Heading and Description */}
+           <div style={{ color: '#fff', textAlign: 'left', maxWidth: 900 }}>
+            <h1 style={{ fontFamily: 'Playfair Display, serif', fontSize: '3.2rem', fontWeight: 700, lineHeight: 1.2, marginBottom: 24 }}>
+              Ras AI Khaimah Economic Zone<br />Company Formation
             </h1>
-            <p className="hero-subtitle" style={{ fontFamily: 'Montserrat, Arial, sans-serif', fontSize: '1.25rem', color: '#d1d5db', marginBottom: 36, fontWeight: 400 }}>
-              One of the largest economic zones in the region, covering 33 million square meters with over 13,000 companies from 100+ countries across 50+ business sectors.
+            <p style={{ fontFamily: 'Montserrat, Arial, sans-serif', fontSize: '1.1rem', color: '#ffffff', marginBottom: 0, fontWeight: 400, lineHeight: 1.7, opacity: 0.95 }}>
+            Spanning over 33 million square meters, this is one of the largest and most diversified economic zones in the region. It hosts more than 13,000 companies from over 100 countries, covering 50+ business sectors. With advanced infrastructure, excellent connectivity to global markets, and business-friendly regulations, this zone is a key driver of industrial development and international trade. It offers scalable solutions for manufacturers, traders, and service providers, making it a preferred destination for businesses aiming to expand across the UAE and beyond. Its strategic location and investor-centric ecosystem ensure long-term success and sustainable growth for companies of all sizes.
             </p>
-            <a href="#contact" className="hero-cta-btn" style={{ background: '#1ec6b6', color: '#fff', padding: '14px 38px', borderRadius: 30, fontWeight: 700, fontSize: '1.15rem', textDecoration: 'none', display: 'inline-block', marginTop: 10 }}>Start Your RAKEZ Company</a>
-          </div>
-          <div style={{ minWidth: 350, maxWidth: 400 }}>
-            <CallbackForm />
           </div>
         </div>
       </section>

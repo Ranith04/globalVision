@@ -1,6 +1,5 @@
 import React from 'react';
 import ContactLeadSection from '../../../components/ContactLeadSection';
-import FreezoneHeroWithForm from '../../../components/FreezoneHeroWithForm';
 import Navbar from '../../../components/Navbar';
 
 const advantages = [
@@ -63,13 +62,39 @@ export default function SRTIPFreezonePage() {
   return (
     <>
       <Navbar />
-      <FreezoneHeroWithForm
-        title={"Sharjah Research Technology\nand Innovation Park (SRTIP)"}
-        description={"A leading innovation ecosystem in Sharjah, SRTIP Free Zone supports research, technology, and entrepreneurship with state-of-the-art facilities and a collaborative environment."}
-        ctaText="Start Your SRTIP Company"
-        ctaHref="#callback-form"
-        backgroundImage="/images/Background-services.jpg"
-      />
+      <section className="hero-section" style={{ position: 'relative', minHeight: '100vh', padding: 0, background: 'linear-gradient(120deg, #0f9d8f 0%, #0e3c5d 100%)' }}>
+        <div style={{
+          position: 'absolute',
+          top: 0,
+          left: 0,
+          width: '100vw',
+          height: '100vh',
+          background: 'url(/images/Background-services.jpg) center/cover no-repeat',
+          opacity: 0.25,
+          zIndex: 1
+        }} />
+         <div style={{
+           position: 'relative',
+           zIndex: 2,
+           display: 'flex',
+           justifyContent: 'flex-start',
+           alignItems: 'center',
+           width: '100%',
+           maxWidth: 1200,
+           margin: '0 auto',
+           padding: '0 60px',
+        }}>
+           {/* Left-aligned: Heading and Description */}
+           <div style={{ color: '#fff', textAlign: 'left', maxWidth: 900 }}>
+            <h1 style={{ fontFamily: 'Playfair Display, serif', fontSize: '3.2rem', fontWeight: 700, lineHeight: 1.2, marginBottom: 24 }}>
+              Sharjah Research Technology and Innovation Park <br />Free Zone
+            </h1>
+            <p style={{ fontFamily: 'Montserrat, Arial, sans-serif', fontSize: '1.1rem', color: '#ffffff', marginBottom: 0, fontWeight: 400, lineHeight: 1.7, opacity: 0.95 }}>
+            Located in University City, Sharjah, this innovative business hub serves as a catalyst for entrepreneurs and startups in key sectors such as research and development, technology, healthcare, and sustainability. Strategically positioned within an academic and knowledge-rich environment, it fosters collaboration between businesses, universities, and research institutions. The hub offers modern infrastructure, affordable setup options, and access to a network of like-minded professionals and industry experts. With strong government backing and a focus on driving future-ready solutions, it empowers businesses to thrive in a competitive global landscape while contributing to the UAE’s vision of a diversified, knowledge-based economy.
+             </p>
+          </div>
+        </div>
+      </section>
       {/* Overview Section */}
       <section style={{ background: '#f7f9fa', padding: '72px 0' }}>
         <div style={{
