@@ -551,7 +551,7 @@ ul {
 .about-img {
   border-radius: 20px;
   box-shadow: 0 4px 32px rgba(0,0,0,0.13);
-  width: 480px !important;
+  width: 500px !important;
   height: 340px !important;
   object-fit: cover;
   display: block;
@@ -688,7 +688,7 @@ ul {
 }
 .mission-media-video {
   width: 100%;
-  max-width: 480px;
+  max-width: 500px;
   height: 340px;
   border-radius: 20px;
   object-fit: cover;
@@ -714,8 +714,8 @@ ul {
     gap: 48px;
   }
   .mission-media-video {
-    max-width: 420px;
-    height: 300px;
+    max-width: 500px;
+    height: 340px;
   }
 }
 @media (max-width: 1280px) {
@@ -724,8 +724,8 @@ ul {
     gap: 40px;
   }
   .mission-media-video {
-    max-width: 380px;
-    height: 270px;
+    max-width: 500px;
+    height: 340px;
   }
 }
 @media (max-width: 1024px) {
