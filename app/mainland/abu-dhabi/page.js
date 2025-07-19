@@ -276,9 +276,9 @@ export default function AbuDhabiMainlandPage() {
                 <span style={{ fontWeight: 600, fontSize: '1.05rem', fontFamily: 'Georgia, serif', color: '#1ec6b6' }}>Business Documents</span>
               </div>
               <ul style={{ color: '#222', fontSize: 15, margin: 0, padding: '0 0 0 0', fontFamily: 'Inter, Arial, sans-serif', listStyle: 'none' }}>
-                <li style={{ display: 'flex', alignItems: 'center', marginBottom: 4 }}><span style={{ color: '#1ec6b6', marginRight: 7 }}>&#10003;</span>Memorandum of Association (MOA)</li>
-                <li style={{ display: 'flex', alignItems: 'center', marginBottom: 4 }}><span style={{ color: '#1ec6b6', marginRight: 7 }}>&#10003;</span>Articles of Association (AOA)</li>
-                <li style={{ display: 'flex', alignItems: 'center', marginBottom: 4 }}><span style={{ color: '#1ec6b6', marginRight: 7 }}>&#10003;</span>Office lease agreement (Tawtheeq)</li>
+                <li style={{ display: 'flex', alignItems: 'center', marginBottom: 4 }}><span style={{ color: '#1ec6b6', marginRight: 7 }}>&#10003;</span>Memorandum of Association</li>
+                <li style={{ display: 'flex', alignItems: 'center', marginBottom: 4 }}><span style={{ color: '#1ec6b6', marginRight: 7 }}>&#10003;</span>Articles of Association</li>
+                <li style={{ display: 'flex', alignItems: 'center', marginBottom: 4 }}><span style={{ color: '#1ec6b6', marginRight: 7 }}>&#10003;</span>Office lease agreement</li>
                 <li style={{ display: 'flex', alignItems: 'center' }}><span style={{ color: '#1ec6b6', marginRight: 7 }}>&#10003;</span>Business plan and activity description</li>
               </ul>
             </div>
@@ -292,7 +292,7 @@ export default function AbuDhabiMainlandPage() {
               </div>
               <ul style={{ color: '#222', fontSize: 15, margin: 0, padding: '0 0 0 0', fontFamily: 'Inter, Arial, sans-serif', listStyle: 'none' }}>
                 <li style={{ display: 'flex', alignItems: 'center', marginBottom: 4 }}><span style={{ color: '#1ec6b6', marginRight: 7 }}>&#10003;</span>Board resolution for company formation</li>
-                <li style={{ display: 'flex', alignItems: 'center', marginBottom: 4 }}><span style={{ color: '#1ec6b6', marginRight: 7 }}>&#10003;</span>Power of attorney (if applicable)</li>
+                <li style={{ display: 'flex', alignItems: 'center', marginBottom: 4 }}><span style={{ color: '#1ec6b6', marginRight: 7 }}>&#10003;</span>Power of attorney</li>
                 <li style={{ display: 'flex', alignItems: 'center', marginBottom: 4 }}><span style={{ color: '#1ec6b6', marginRight: 7 }}>&#10003;</span>Shareholder agreements</li>
                 <li style={{ display: 'flex', alignItems: 'center' }}><span style={{ color: '#1ec6b6', marginRight: 7 }}>&#10003;</span>Company incorporation certificate</li>
               </ul>
@@ -390,9 +390,9 @@ export default function AbuDhabiMainlandPage() {
           {/* Contact Info */}
           <div style={{ flex: '1 1 200px', minWidth: 200, marginBottom: 32 }}>
             <div style={{ fontWeight: 700, color: '#fff', marginBottom: 12 }}>Contact Info</div>
-            <div style={{ color: '#e5e7eb', marginBottom: 6 }}>Business Bay Tower, Abu Dhabi, UAE</div>
+            <div style={{ color: '#e5e7eb', marginBottom: 6 }}>Office number 205, Ontario Tower, Business Bay, Dubai</div>
             <div style={{ color: '#e5e7eb', marginBottom: 6 }}>+971 50 419 3507</div>
-            <div style={{ color: '#e5e7eb' }}>abudhabi@globalvisionservices.com</div>
+            <div style={{ color: '#e5e7eb' }}>info@www.globalvisionuae.com</div>
           </div>
         </div>
         <div style={{ maxWidth: 1100, margin: '32px auto 0 auto', borderTop: '1px solid #232b39', padding: '18px 32px 18px 32px', display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'center', color: '#bfc6d1', fontSize: '0.98rem' }}>

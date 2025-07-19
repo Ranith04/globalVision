@@ -40,11 +40,11 @@ export default function CaymanIslandsPage() {
         }}>
            {/* Left-aligned: Heading and Description */}
            <div style={{ color: '#fff', textAlign: 'left', maxWidth: 900 }}>
-            <h1 style={{ fontFamily: 'Playfair Display, serif', fontSize: '3.2rem', fontWeight: 700, lineHeight: 1.2, marginBottom: 24 }}>
-              RAK ICC Offshore<br />Company Formation
+            <h1 style={{ fontFamily: 'Playfair Display, serif', fontSize: '3.2rem', fontWeight: 700, lineHeight: 1.2, marginBottom: 40 }}>
+              Cayman Islands Offshore<br />Company Formation
             </h1>
             <p style={{ fontFamily: 'Montserrat, Arial, sans-serif', fontSize: '1.1rem', color: '#ffffff', marginBottom: 0, fontWeight: 400, lineHeight: 1.7, opacity: 0.95 }}>
-              Ras Al Khaimah International Corporate Centre (RAK ICC) is your gateway to seamless international business operations, offering a secure and reputable jurisdiction for global entrepreneurs and investors. With flexible regulations, tax-free benefits, and a strong legal framework aligned with international standards, RAK ICC is ideal for asset protection, wealth management, international holding structures, and business expansion — all while ensuring confidentiality and operational efficiency.
+            Establish your company in the prestigious Cayman Islands, a self-governing British Overseas Territory renowned for its mature legal system, political stability, and strong global reputation. Ideal for offshore structuring, asset protection, and investment funds, the Cayman Islands offer tax neutrality, confidentiality, and a well-regulated business environment trusted by international investors.
             </p>
           </div>
         </div>
@@ -276,7 +276,7 @@ export default function CaymanIslandsPage() {
             Our experienced team is ready to help you establish your Cayman Islands company
           </p>
           <div style={{ display: 'flex', justifyContent: 'center', gap: 18, alignItems: 'center', color: '#fff', fontSize: 16, marginBottom: 28, fontFamily: 'Montserrat, Arial, sans-serif' }}>
-            <span>+971 50 483 6190</span>
+            <span> +971 50 419 3507</span>
             <span style={{ fontSize: 18, color: '#fff' }}>•</span>
             <span>info@www.globalvisionuae.com@/app</span>
           </div>
@@ -317,8 +317,8 @@ export default function CaymanIslandsPage() {
           {/* Contact Info */}
           <div style={{ flex: '1 1 200px', minWidth: 200, marginBottom: 32 }}>
             <div style={{ fontWeight: 700, color: '#fff', marginBottom: 12 }}>Contact Info</div>
-            <div style={{ color: '#e5e7eb', marginBottom: 6 }}>Business Bay Tower, Dubai, UAE</div>
-            <div style={{ color: '#e5e7eb', marginBottom: 6 }}>+971 50 483 6190</div>
+            <div style={{ color: '#e5e7eb', marginBottom: 6 }}> Office number 205, Ontario Tower, Business Bay, Dubai</div>
+            <div style={{ color: '#e5e7eb', marginBottom: 6 }}> +971 50 419 3507</div>
             <div style={{ color: '#e5e7eb' }}>info@www.globalvisionuae.com@/app</div>
           </div>
         </div>

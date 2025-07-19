@@ -40,12 +40,12 @@ export default function PrivateOfficesPage() {
         }}>
            {/* Left-aligned: Heading and Description */}
            <div style={{ color: '#fff', textAlign: 'left', maxWidth: 900 }}>
-            <h1 style={{ fontFamily: 'Playfair Display, serif', fontSize: '3.2rem', fontWeight: 700, lineHeight: 1.2, marginBottom: 24 }}>
-              RAK ICC Offshore<br />Company Formation
+            <h1 style={{ fontFamily: 'Playfair Display, serif', fontSize: '3.2rem', fontWeight: 700, lineHeight: 1.2, marginBottom: 40 }}>
+              Private Office <br />
             </h1>
             <p style={{ fontFamily: 'Montserrat, Arial, sans-serif', fontSize: '1.1rem', color: '#ffffff', marginBottom: 0, fontWeight: 400, lineHeight: 1.7, opacity: 0.95 }}>
-              Ras Al Khaimah International Corporate Centre (RAK ICC) is your gateway to seamless international business operations, offering a secure and reputable jurisdiction for global entrepreneurs and investors. With flexible regulations, tax-free benefits, and a strong legal framework aligned with international standards, RAK ICC is ideal for asset protection, wealth management, international holding structures, and business expansion — all while ensuring confidentiality and operational efficiency.
-            </p>
+            Experience the ultimate private office on Dubai’s prestigious Sheikh Zayed Road — where luxury, convenience, and productivity converge in a high-end business environment. Enjoy fully furnished offices, modern interiors, dedicated reception services, and panoramic city views, all in one of the most iconic business addresses in the UAE.
+            Ideal for executives, entrepreneurs, and companies seeking a premium presence in the heart of Dubai’s commercial district. </p>
           </div>
         </div>
       </section>
@@ -196,7 +196,7 @@ export default function PrivateOfficesPage() {
           <h3 style={{ fontWeight: 700, fontSize: 22, marginBottom: 16 }}>Secure Your Private Office Today</h3>
           <p style={{ fontSize: 16, marginBottom: 18 }}>Elevate your business with premium private office solutions in Dubai!</p>
           <div style={{ marginBottom: 18 }}>
-            <span style={{ marginRight: 18 }}>+971 4 870 7237</span>
+            <span style={{ marginRight: 18 }}>+971 50 419 3507</span>
             <span style={{ marginRight: 18 }}>dubai@globalvisionsvcs.com</span>
           </div>
           <button style={{ background: '#fff', color: '#0b8c8c', border: 'none', borderRadius: 6, padding: '10px 32px', fontWeight: 600, fontSize: 15, cursor: 'pointer' }}>Contact Us Today</button>
@@ -225,9 +225,9 @@ export default function PrivateOfficesPage() {
           </div>
           <div style={{ flex: 1, minWidth: 220 }}>
             <div style={{ fontWeight: 600, marginBottom: 8 }}>Contact Us</div>
-            <div>Office 1101, Business Bay Tower, Dubai, UAE</div>
+            <div> Office number 205, Ontario Tower, Business Bay, Dubai</div>
             <div>+971 50 419 3507</div>
-            <div>dubai@globalvisionsvcs.com</div>
+            <div> info@www.globalvisionuae.com</div>
           </div>
         </div>
         <div style={{ borderTop: '1px solid #fff2', marginTop: 24, padding: '16px 0', textAlign: 'center', fontSize: 13, color: '#e0f7fa' }}>

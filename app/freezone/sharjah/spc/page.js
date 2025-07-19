@@ -334,6 +334,50 @@ export default function SPCFreezonePage() {
       <FreezoneLocationsSection />
       
       <ContactLeadSection />
+       {/* Footer Section - Exact Match */}
+       <footer style={{ background: '#151b26', color: '#e5e7eb', padding: '56px 0 0 0', fontSize: '1rem' }}>
+        <div style={{ maxWidth: 1100, margin: '0 auto', display: 'flex', flexWrap: 'wrap', gap: 0, justifyContent: 'space-between', alignItems: 'flex-start', padding: '0 32px' }}>
+          {/* Logo & Description */}
+          <div style={{ flex: '1 1 260px', minWidth: 220, marginBottom: 32 }}>
+            <div style={{ display: 'flex', alignItems: 'center', marginBottom: 12 }}>
+              <img src="/images/footerlogo.png" alt="Global Vision Logo" style={{ width: 180, height: 'auto', objectFit: 'contain', display: 'block', background: 'transparent' }} />
+            </div>
+            <div style={{ color: '#bfc6d1', fontSize: '0.98rem', marginBottom: 12 }}>
+              Your trusted partner for Abu Dhabi mainland<br/>company formation and business setup<br/>services.
+            </div>
+          </div>
+          {/* Services */}
+          <div style={{ flex: '1 1 160px', minWidth: 160, marginBottom: 32 }}>
+            <div style={{ fontWeight: 700, color: '#fff', marginBottom: 12 }}>Services</div>
+            <div style={{ color: '#e5e7eb', marginBottom: 6 }}>Company Formation</div>
+            <div style={{ color: '#e5e7eb', marginBottom: 6 }}>Business License</div>
+            <div style={{ color: '#e5e7eb', marginBottom: 6 }}>Bank Account Opening</div>
+            <div style={{ color: '#e5e7eb' }}>Visa Services</div>
+          </div>
+          {/* Resources */}
+          <div style={{ flex: '1 1 160px', minWidth: 160, marginBottom: 32 }}>
+            <div style={{ fontWeight: 700, color: '#fff', marginBottom: 12 }}>Resources</div>
+            <div style={{ color: '#e5e7eb', marginBottom: 6 }}>Blog</div>
+            <div style={{ color: '#e5e7eb', marginBottom: 6 }}>FAQ</div>
+            <div style={{ color: '#e5e7eb', marginBottom: 6 }}>Contact</div>
+            <div style={{ color: '#e5e7eb' }}>Support</div>
+          </div>
+          {/* Contact Info */}
+          <div style={{ flex: '1 1 200px', minWidth: 200, marginBottom: 32 }}>
+            <div style={{ fontWeight: 700, color: '#fff', marginBottom: 12 }}>Contact Info</div>
+            <div style={{ color: '#e5e7eb', marginBottom: 6 }}>Office number 205, Ontario Tower, Business Bay, Dubai</div>
+            <div style={{ color: '#e5e7eb', marginBottom: 6 }}>+971 50 419 3507</div>
+            <div style={{ color: '#e5e7eb' }}>info@www.globalvisionuae.com</div>
+          </div>
+        </div>
+        <div style={{ maxWidth: 1100, margin: '32px auto 0 auto', borderTop: '1px solid #232b39', padding: '18px 32px 18px 32px', display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'center', color: '#bfc6d1', fontSize: '0.98rem' }}>
+          <div>© 2024 Global Vision Services. All rights reserved.</div>
+          <div style={{ display: 'flex', gap: 24 }}>
+            <span style={{ cursor: 'pointer' }}>Privacy Policy</span>
+            <span style={{ cursor: 'pointer' }}>Terms of Service</span>
+          </div>
+        </div>
+      </footer>
     </>
   );
 } 

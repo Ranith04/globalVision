@@ -41,11 +41,10 @@ export default function BVIPage() {
            {/* Left-aligned: Heading and Description */}
            <div style={{ color: '#fff', textAlign: 'left', maxWidth: 900 }}>
             <h1 style={{ fontFamily: 'Playfair Display, serif', fontSize: '3.2rem', fontWeight: 700, lineHeight: 1.2, marginBottom: 40 }}>
-              RAK ICC Offshore<br />Company Formation
+              BVI Offshore <br />Company Formation
             </h1>
             <p style={{ fontFamily: 'Montserrat, Arial, sans-serif', fontSize: '1.1rem', color: '#ffffff', marginBottom: 0, fontWeight: 400, lineHeight: 1.7, opacity: 0.95 }}>
-              Ras Al Khaimah International Corporate Centre (RAK ICC) is your gateway to seamless international business operations, offering a secure and reputable jurisdiction for global entrepreneurs and investors. With flexible regulations, tax-free benefits, and a strong legal framework aligned with international standards, RAK ICC is ideal for asset protection, wealth management, international holding structures, and business expansion — all while ensuring confidentiality and operational efficiency.
-            </p>
+               </p>Establish your company in the British Virgin Islands (BVI) — a prestigious British Overseas Territory known for its robust legal system, international credibility, and investor-friendly environment. Enjoy complete tax exemption, confidentiality, and strong privacy protection, making it an ideal choice for international trading, asset holding, and wealth management. With flexible regulations and global recognition, BVI offers a trusted platform for secure and efficient offshore operations.
           </div>
         </div>
       </section>
@@ -264,7 +263,7 @@ export default function BVIPage() {
             Contact our BVI formation experts today for a free consultation
           </p>
           <div style={{ display: 'flex', justifyContent: 'center', gap: 18, alignItems: 'center', color: '#fff', fontSize: 16, marginBottom: 28, fontFamily: 'Montserrat, Arial, sans-serif' }}>
-            <span>+971 50 483 6150</span>
+            <span> +971 50 419 3507</span>
             <span style={{ fontSize: 18, color: '#fff' }}>•</span>
             <span>info@www.globalvisionuae.com@/app</span>
           </div>
@@ -305,8 +304,8 @@ export default function BVIPage() {
           {/* Contact Info */}
           <div style={{ flex: '1 1 200px', minWidth: 200, marginBottom: 32 }}>
             <div style={{ fontWeight: 700, color: '#fff', marginBottom: 12 }}>Contact Info</div>
-            <div style={{ color: '#e5e7eb', marginBottom: 6 }}>BVI Office, British Virgin Islands</div>
-            <div style={{ color: '#e5e7eb', marginBottom: 6 }}>+971 50 483 6150</div>
+            <div style={{ color: '#e5e7eb', marginBottom: 6 }}> Office number 205, Ontario Tower, Business Bay, Dubai</div>
+            <div style={{ color: '#e5e7eb', marginBottom: 6 }}> +971 50 419 3507</div>
             <div style={{ color: '#e5e7eb' }}>info@www.globalvisionuae.com@/app</div>
           </div>
         </div>

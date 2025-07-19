@@ -259,8 +259,8 @@ export default function SHAMSFreezonePage() {
           {/* Contact Info */}
           <div style={{ flex: '1 1 200px', minWidth: 200, marginBottom: 32 }}>
             <div style={{ fontWeight: 700, color: '#fff', marginBottom: 12 }}>Contact Info</div>
-            <div style={{ color: '#b2c7d9', marginBottom: 6, fontSize: '0.98rem' }}>Office 101, Business Bay Tower, Dubai, UAE</div>
-            <div style={{ color: '#b2c7d9', marginBottom: 6, fontSize: '0.98rem' }}>+971 4 321 5427</div>
+            <div style={{ color: '#b2c7d9', marginBottom: 6, fontSize: '0.98rem' }}>Office number 205, Ontario Tower, Business Bay, Dubai</div>
+            <div style={{ color: '#b2c7d9', marginBottom: 6, fontSize: '0.98rem' }}> +971 50 419 3507</div>
             <div style={{ color: '#b2c7d9', fontSize: '0.98rem' }}>info@www.globalvisionuae.com</div>
           </div>
         </div>

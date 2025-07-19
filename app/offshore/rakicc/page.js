@@ -40,7 +40,7 @@ export default function RAKICCOffshorePage() {
         }}>
           {/* Left-aligned: Heading and Description */}
           <div style={{ color: '#fff', textAlign: 'left', maxWidth: 900 }}>
-            <h1 style={{ fontFamily: 'Playfair Display, serif', fontSize: '3.2rem', fontWeight: 700, lineHeight: 1.2, marginBottom: 24 }}>
+            <h1 style={{ fontFamily: 'Playfair Display, serif', fontSize: '3.2rem', fontWeight: 700, lineHeight: 1.2, marginBottom: 40 }}>
               RAK ICC Offshore<br />Company Formation
             </h1>
             <p style={{ fontFamily: 'Montserrat, Arial, sans-serif', fontSize: '1.1rem', color: '#ffffff', marginBottom: 0, fontWeight: 400, lineHeight: 1.7, opacity: 0.95 }}>
@@ -206,7 +206,7 @@ export default function RAKICCOffshorePage() {
             Get expert assistance with your RAK ICC offshore company formation
           </p>
           <div style={{ display: 'flex', justifyContent: 'center', gap: 18, alignItems: 'center', color: '#fff', fontSize: 16, marginBottom: 28, fontFamily: 'Montserrat, Arial, sans-serif' }}>
-            <span>+971 50 483 6190</span>
+            <span> +971 50 419 3507</span>
             <span style={{ fontSize: 18, color: '#fff' }}>•</span>
             <span>info@www.globalvisionuae.com@/app</span>
           </div>
@@ -247,8 +247,8 @@ export default function RAKICCOffshorePage() {
           {/* Contact Info */}
           <div style={{ flex: '1 1 200px', minWidth: 200, marginBottom: 32 }}>
             <div style={{ fontWeight: 700, color: '#fff', marginBottom: 12 }}>Contact Info</div>
-            <div style={{ color: '#e5e7eb', marginBottom: 6 }}>Business Bay Tower, Dubai, UAE</div>
-            <div style={{ color: '#e5e7eb', marginBottom: 6 }}>+971 50 483 6190</div>
+            <div style={{ color: '#e5e7eb', marginBottom: 6 }}> Office number 205, Ontario Tower, Business Bay, Dubai</div>
+            <div style={{ color: '#e5e7eb', marginBottom: 6 }}> +971 50 419 3507</div>
             <div style={{ color: '#e5e7eb' }}>info@www.globalvisionuae.com@/app</div>
           </div>
         </div>

@@ -466,11 +466,22 @@ ul {
 /* MODERN ABOUT SECTION */
 .about-section {
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #f7f7f7;
+  background: #EAEAEA;
   padding: 80px 0;
+}
+
+.about-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 5%;
+  width: 100%;
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 56px;
 }
 .about-card {
   display: flex;
@@ -547,8 +558,8 @@ ul {
 }
 .about-badge {
   position: absolute;
-  bottom: 18px;
-  right: 12px;
+  bottom: -35px;
+  right: -30px;
   background: #159e91;
   color: #fff;
   padding: 20px 32px 14px 32px;
@@ -584,6 +595,7 @@ ul {
   box-shadow: 0 4px 24px rgba(0,0,0,0.13);
   display: block;
   background: #eaeaea;
+  margin-top: 60px;
 }
 
 /* Desktop-specific about section adjustments */
@@ -611,8 +623,8 @@ ul {
     gap: 48px;
   }
   .about-img, .about-media-video {
-    width: 420px !important;
-    height: 300px !important;
+    width: 500px !important;
+    height: 340px !important;
   }
 }
 @media (max-width: 1280px) {
@@ -1278,11 +1290,124 @@ ul {
 }
 .mission-section {
   width: 100%;
-  background: #f7f7f7;
-  padding:  0;
+  background: #ffffff;
+  padding: 80px 0;
+}
+
+.mission-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 5%;
+  width: 100%;
+}
+
+.mission-content {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  gap: 56px;
+}
+
+.mission__media {
+  flex: 1;
+}
+
+.mission__text {
+  flex: 1;
+}
+
+.mission-heading {
+  font-size: 3rem;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-weight: 800;
+  color: #1a2233;
+  margin-bottom: 20px;
+  line-height: 1.1;
+}
+
+.mission-vision {
+  color: #1ec6b6;
+}
+
+.mission-media-video {
+  width: 100%;
+  max-width: 500px;
+  height: 340px;
+  border-radius: 20px;
+  object-fit: cover;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.13);
+  display: block;
+  background: #eaeaea;
+}
+
+/* Responsive styles for About and Mission sections */
+@media (min-width: 1920px) {
+  .about-container, .mission-container {
+    max-width: 1600px;
+    padding: 0 6%;
+  }
+  .about-content, .mission-content {
+    gap: 64px;
+  }
+  .about-title, .mission-heading {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 1440px) {
+  .about-container, .mission-container {
+    max-width: 1200px;
+    padding: 0 4%;
+  }
+  .about-content, .mission-content {
+    gap: 48px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .about-container, .mission-container {
+    max-width: 1100px;
+    padding: 0 3%;
+  }
+  .about-content, .mission-content {
+    gap: 40px;
+  }
+  .about-title, .mission-heading {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .about-content, .mission-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+  }
+  .about-left, .mission__text {
+    width: 100%;
+  }
+  .about-right, .mission__media {
+    width: 100%;
+  }
+  .about-title, .mission-heading {
+    font-size: 2.2rem;
+  }
+  .mission-media-video {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-section, .mission-section {
+    padding: 60px 0;
+  }
+  .about-container, .mission-container {
+    padding: 0 4%;
+  }
+  .about-title, .mission-heading {
+    font-size: 1.8rem;
+  }
 }
 .mission-card .mission__image {
   flex: 1;
@@ -2441,4 +2566,8 @@ body.modal-open {
 }
 
 /* Desktop-specific modal adjustments */
-@media (min-width:
+@media (min-width: 1920px) {
+  .centered-modal {
+    max-width: 500px;
+  }
+}

@@ -40,11 +40,11 @@ export default function VirtualOfficesPage() {
         }}>
            {/* Left-aligned: Heading and Description */}
            <div style={{ color: '#fff', textAlign: 'left', maxWidth: 900 }}>
-            <h1 style={{ fontFamily: 'Playfair Display, serif', fontSize: '3.2rem', fontWeight: 700, lineHeight: 1.2, marginBottom: 24 }}>
-              RAK ICC Offshore<br />Company Formation
+            <h1 style={{ fontFamily: 'Playfair Display, serif', fontSize: '3.2rem', fontWeight: 700, lineHeight: 1.2, marginBottom: 40 }}>
+              Virtual Office <br />
             </h1>
             <p style={{ fontFamily: 'Montserrat, Arial, sans-serif', fontSize: '1.1rem', color: '#ffffff', marginBottom: 0, fontWeight: 400, lineHeight: 1.7, opacity: 0.95 }}>
-              Ras Al Khaimah International Corporate Centre (RAK ICC) is your gateway to seamless international business operations, offering a secure and reputable jurisdiction for global entrepreneurs and investors. With flexible regulations, tax-free benefits, and a strong legal framework aligned with international standards, RAK ICC is ideal for asset protection, wealth management, international holding structures, and business expansion — all while ensuring confidentiality and operational efficiency.
+            Establish a strong company presence with a virtual office in Dubai, offering a prestigious business address, access to professional support services, and flexible workspace solutions. Ideal for startups, remote teams, and international businesses looking to build credibility and operate efficiently without the cost of a physical office. Enjoy features like mail handling, call answering, meeting room access, and full compliance with UAE regulations — all designed to support your business growth.
             </p>
           </div>
         </div>
@@ -245,9 +245,9 @@ export default function VirtualOfficesPage() {
           {/* Contact Info */}
           <div style={{ flex: '1 1 200px', minWidth: 200, marginBottom: 32 }}>
             <div style={{ fontWeight: 700, color: '#fff', marginBottom: 12 }}>Contact Info</div>
-            <div style={{ color: '#e5e7eb', marginBottom: 6 }}>Business Bay Tower, Dubai, UAE</div>
+            <div style={{ color: '#e5e7eb', marginBottom: 6 }}> Office number 205, Ontario Tower, Business Bay, Dubai</div>
             <div style={{ color: '#e5e7eb', marginBottom: 6 }}>+971 50 419 3507</div>
-            <div style={{ color: '#e5e7eb' }}>dubai@globalvisionservices.com</div>
+            <div style={{ color: '#e5e7eb' }}> info@www.globalvisionuae.com</div>
           </div>
         </div>
         <div style={{ maxWidth: 1100, margin: '32px auto 0 auto', borderTop: '1px solid #232b39', padding: '18px 32px 18px 32px', display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'center', color: '#bfc6d1', fontSize: '0.98rem' }}>

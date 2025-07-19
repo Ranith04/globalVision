@@ -120,9 +120,9 @@ export default function SharjahMainlandPage() {
           <p style={{ color: '#fff', fontSize: 16, fontFamily: 'Montserrat, Arial, sans-serif', textAlign: 'center', marginBottom: 40 }}>
             Ensure you have all necessary documentation ready for a smooth and efficient registration process.
           </p>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: 32, maxWidth: 950, margin: '0 auto' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: 20, maxWidth: 800, margin: '0 auto' }}>
             {/* Personal Documents */}
-            <div style={{ background: '#fff', borderRadius: 16, padding: '28px 28px 22px 28px', boxShadow: '0 2px 12px rgba(30,198,182,0.07)', display: 'flex', flexDirection: 'column', minHeight: 210 }}>
+            <div style={{ background: '#fff', borderRadius: 12, padding: '20px 20px 18px 20px', boxShadow: '0 2px 8px rgba(30,198,182,0.06)', display: 'flex', flexDirection: 'column', minHeight: 160 }}>
               <div style={{ display: 'flex', alignItems: 'center', marginBottom: 10 }}>
                 <span style={{ color: '#1ec6b6', fontSize: 26, marginRight: 10 }}>
                   <svg width="24" height="24" fill="none" viewBox="0 0 24 24"><path d="M6 2a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H6zm0 2h12v16H6V4zm3 2v2h6V6H9zm0 4v2h6v-2H9zm0 4v2h4v-2H9z" fill="#1ec6b6"/></svg>
@@ -137,7 +137,7 @@ export default function SharjahMainlandPage() {
               </ul>
             </div>
             {/* Business Documents */}
-            <div style={{ background: '#fff', borderRadius: 16, padding: '28px 28px 22px 28px', boxShadow: '0 2px 12px rgba(30,198,182,0.07)', display: 'flex', flexDirection: 'column', minHeight: 210 }}>
+            <div style={{ background: '#fff', borderRadius: 12, padding: '20px 20px 18px 20px', boxShadow: '0 2px 8px rgba(30,198,182,0.06)', display: 'flex', flexDirection: 'column', minHeight: 160 }}>
               <div style={{ display: 'flex', alignItems: 'center', marginBottom: 10 }}>
                 <span style={{ color: '#1ec6b6', fontSize: 26, marginRight: 10 }}>
                   <svg width="24" height="24" fill="none" viewBox="0 0 24 24"><path d="M4 4h16v2H4V4zm0 4h16v2H4V8zm0 4h16v2H4v-2zm0 4h16v2H4v-2z" fill="#1ec6b6"/></svg>
@@ -151,7 +151,7 @@ export default function SharjahMainlandPage() {
               </ul>
             </div>
             {/* Corporate Documents */}
-            <div style={{ background: '#fff', borderRadius: 16, padding: '28px 28px 22px 28px', boxShadow: '0 2px 12px rgba(30,198,182,0.07)', display: 'flex', flexDirection: 'column', minHeight: 210 }}>
+            <div style={{ background: '#fff', borderRadius: 12, padding: '20px 20px 18px 20px', boxShadow: '0 2px 8px rgba(30,198,182,0.06)', display: 'flex', flexDirection: 'column', minHeight: 160 }}>
               <div style={{ display: 'flex', alignItems: 'center', marginBottom: 10 }}>
                 <span style={{ color: '#1ec6b6', fontSize: 26, marginRight: 10 }}>
                   <svg width="24" height="24" fill="none" viewBox="0 0 24 24"><path d="M3 3h18v18H3V3zm2 2v14h14V5H5zm2 2h10v2H7V7zm0 4h10v2H7v-2zm0 4h10v2H7v-2z" fill="#1ec6b6"/></svg>
@@ -166,7 +166,7 @@ export default function SharjahMainlandPage() {
               </ul>
             </div>
             {/* Additional Requirements */}
-            <div style={{ background: '#fff', borderRadius: 16, padding: '28px 28px 22px 28px', boxShadow: '0 2px 12px rgba(30,198,182,0.07)', display: 'flex', flexDirection: 'column', minHeight: 210 }}>
+            <div style={{ background: '#fff', borderRadius: 12, padding: '20px 20px 18px 20px', boxShadow: '0 2px 8px rgba(30,198,182,0.06)', display: 'flex', flexDirection: 'column', minHeight: 160 }}>
               <div style={{ display: 'flex', alignItems: 'center', marginBottom: 10 }}>
                 <span style={{ color: '#1ec6b6', fontSize: 26, marginRight: 10 }}>
                   <svg width="24" height="24" fill="none" viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z" fill="#1ec6b6"/></svg>
@@ -255,9 +255,9 @@ export default function SharjahMainlandPage() {
           {/* Contact Info */}
           <div style={{ flex: '1 1 200px', minWidth: 200, marginBottom: 32 }}>
             <div style={{ fontWeight: 700, color: '#fff', marginBottom: 12 }}>Contact Info</div>
-            <div style={{ color: '#e5e7eb', marginBottom: 6 }}>Al Majaz Tower, Sharjah, UAE</div>
+            <div style={{ color: '#e5e7eb', marginBottom: 6 }}> Office number 205, Ontario Tower, Business Bay, Dubai</div>
             <div style={{ color: '#e5e7eb', marginBottom: 6 }}>+971 50 419 3507</div>
-            <div style={{ color: '#e5e7eb' }}>sharjah@globalvisionservices.com</div>
+            <div style={{ color: '#e5e7eb' }}> info@www.globalvisionuae.com</div>
           </div>
         </div>
         <div style={{ maxWidth: 1100, margin: '32px auto 0 auto', borderTop: '1px solid #232b39', padding: '18px 32px 18px 32px', display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'center', color: '#bfc6d1', fontSize: '0.98rem' }}>

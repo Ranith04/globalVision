@@ -383,9 +383,9 @@ export default function DubaiMainlandPage() {
           {/* Contact Info */}
           <div style={{ flex: '1 1 200px', minWidth: 200, marginBottom: 32 }}>
             <div style={{ fontWeight: 700, color: '#fff', marginBottom: 12 }}>Contact Info</div>
-            <div style={{ color: '#e5e7eb', marginBottom: 6 }}>Business Bay Tower, Dubai, UAE</div>
+            <div style={{ color: '#e5e7eb', marginBottom: 6 }}>Office number 205, Ontario Tower, Business Bay, Dubai  </div>
             <div style={{ color: '#e5e7eb', marginBottom: 6 }}>+971 50 419 3507</div>
-            <div style={{ color: '#e5e7eb' }}>dubai@globalvisionservices.com</div>
+            <div style={{ color: '#e5e7eb' }}> info@www.globalvisionuae.com</div>
           </div>
         </div>
         <div style={{ maxWidth: 1100, margin: '32px auto 0 auto', borderTop: '1px solid #232b39', padding: '18px 32px 18px 32px', display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'center', color: '#bfc6d1', fontSize: '0.98rem' }}>

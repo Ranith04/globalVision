@@ -40,12 +40,12 @@ export default function DubaiOffshorePage() {
         }}>
            {/* Left-aligned: Heading and Description */}
            <div style={{ color: '#fff', textAlign: 'left', maxWidth: 900 }}>
-            <h1 style={{ fontFamily: 'Playfair Display, serif', fontSize: '3.2rem', fontWeight: 700, lineHeight: 1.2, marginBottom: 24 }}>
-              RAK ICC Offshore<br />Company Formation
+            <h1 style={{ fontFamily: 'Playfair Display, serif', fontSize: '3.2rem', fontWeight: 700, lineHeight: 1.2, marginBottom: 40 }}>
+              Dubai Offshore <br />Company Formation
             </h1>
             <p style={{ fontFamily: 'Montserrat, Arial, sans-serif', fontSize: '1.1rem', color: '#ffffff', marginBottom: 0, fontWeight: 400, lineHeight: 1.7, opacity: 0.95 }}>
-              Ras Al Khaimah International Corporate Centre (RAK ICC) is your gateway to seamless international business operations, offering a secure and reputable jurisdiction for global entrepreneurs and investors. With flexible regulations, tax-free benefits, and a strong legal framework aligned with international standards, RAK ICC is ideal for asset protection, wealth management, international holding structures, and business expansion — all while ensuring confidentiality and operational efficiency.
-            </p>
+            Establish your offshore company in Dubai and enjoy the advantages of complete privacy, tax efficiency, and global business reach. Ideal for international trading, holding assets, intellectual property management, and wealth protection, Dubai’s offshore framework offers a secure, flexible, and reputable jurisdiction. With simplified regulations, no local office requirements, and strong banking support, it's the perfect choice for entrepreneurs and investors seeking confidentiality and international growth
+             </p>
           </div>
         </div>
       </section>
@@ -273,7 +273,7 @@ export default function DubaiOffshorePage() {
             Get expert guidance and start your Dubai offshore company formation today
           </p>
           <div style={{ display: 'flex', justifyContent: 'center', gap: 18, alignItems: 'center', color: '#fff', fontSize: 16, marginBottom: 28, fontFamily: 'Montserrat, Arial, sans-serif' }}>
-            <span>+971 50 483 6150</span>
+            <span> +971 50 419 3507</span>
             <span style={{ fontSize: 18, color: '#fff' }}>•</span>
             <span>info@www.globalvisionuae.com@/app</span>
           </div>
@@ -314,7 +314,7 @@ export default function DubaiOffshorePage() {
           {/* Contact Info */}
           <div style={{ flex: '1 1 200px', minWidth: 200, marginBottom: 32 }}>
             <div style={{ fontWeight: 700, color: '#fff', marginBottom: 12 }}>Contact Info</div>
-            <div style={{ color: '#e5e7eb', marginBottom: 6 }}>Business Bay Tower, Dubai, UAE</div>
+            <div style={{ color: '#e5e7eb', marginBottom: 6 }}> Office number 205, Ontario Tower, Business Bay, Dubai</div>
             <div style={{ color: '#e5e7eb', marginBottom: 6 }}>+971 50 419 3507</div>
             <div style={{ color: '#e5e7eb' }}>info@www.globalvisionuae.com@/app</div>
           </div>

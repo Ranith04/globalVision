@@ -348,7 +348,7 @@ export default function MeydanFreezonePage() {
           </div>
           {/* Right: Image */}
           <div style={{ flex: '1 1 420px', minWidth: 320, maxWidth: 540, display: 'flex', justifyContent: 'center', alignItems: 'center', padding: '24px 0' }}>
-            <img src="/images/meydan-1.avif" alt="Meydan Free Zone Cityscape" style={{ width: '100%', maxWidth: 480, borderRadius: 12, boxShadow: '0 4px 24px rgba(30,198,182,0.10)' }} />
+            <img src="/images/meydan-1.avif" alt="Meydan Free Zone Cityscape" style={{ width: '100%', maxWidth: 480, height: 500, objectFit: 'cover', borderRadius: 12, boxShadow: '0 4px 24px rgba(30,198,182,0.10)', marginLeft: 60, marginTop: 50 }} />
           </div>
         </div>
       </section>
@@ -716,7 +716,7 @@ export default function MeydanFreezonePage() {
           {/* Contact Info */}
           <div style={{ flex: '1 1 200px', minWidth: 200, marginBottom: 32 }}>
             <div style={{ fontWeight: 700, color: '#fff', marginBottom: 12 }}>Contact Info</div>
-            <div style={{ color: '#e5e7eb', marginBottom: 6 }}>Business Bay Tower, Dubai, UAE</div>
+            <div style={{ color: '#e5e7eb', marginBottom: 6 }}> Office number 205, Ontario Tower, Business Bay, Dubai</div>
             <div style={{ color: '#e5e7eb', marginBottom: 6 }}>+971 50 419 3507</div>
             <div style={{ color: '#e5e7eb' }}>info@www.globalvisionuae.com</div>
           </div>

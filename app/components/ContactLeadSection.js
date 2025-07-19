@@ -64,11 +64,11 @@ export default function ContactLeadSection() {
             <div style={{ fontWeight: 700, fontSize: '1.08rem', marginBottom: 12 }}>Contact Information</div>
             <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 8 }}>
               <span style={{ color: '#1ec6b6', fontSize: 18 }}>📍</span>
-              <span>Office 101, Business Bay Tower, Dubai, UAE</span>
+              <span>Office number 205, Ontario Tower, Business Bay, Dubai</span>
             </div>
             <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 8 }}>
               <span style={{ color: '#1ec6b6', fontSize: 18 }}>📞</span>
-              <span>+971 4 123 4567</span>
+              <span>+971 50 419 3507</span>
             </div>
             <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 8 }}>
               <span style={{ color: '#1ec6b6', fontSize: 18 }}>✉️</span>
@@ -76,7 +76,7 @@ export default function ContactLeadSection() {
             </div>
             <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 18 }}>
               <span style={{ color: '#1ec6b6', fontSize: 18 }}>⏰</span>
-              <span>Mon–Fri, 9:00 AM to 6:00 PM</span>
+              <span>Mon–Sat, 9:00 AM to 6:00 PM</span>
             </div>
             <img src="/images/dubai-m3.jpg" alt="Dubai Map" style={{ width: '100%', borderRadius: 8, marginTop: 8, objectFit: 'cover', height: 120 }} />
           </div>

@@ -40,12 +40,11 @@ export default function FlexiOfficesPage() {
         }}>
            {/* Left-aligned: Heading and Description */}
            <div style={{ color: '#fff', textAlign: 'left', maxWidth: 900 }}>
-            <h1 style={{ fontFamily: 'Playfair Display, serif', fontSize: '3.2rem', fontWeight: 700, lineHeight: 1.2, marginBottom: 24 }}>
-              RAK ICC Offshore<br />Company Formation
+            <h1 style={{ fontFamily: 'Playfair Display, serif', fontSize: '3.2rem', fontWeight: 700, lineHeight: 1.2, marginBottom: 40 }}>
+              Flexi Desk<br />
             </h1>
             <p style={{ fontFamily: 'Montserrat, Arial, sans-serif', fontSize: '1.1rem', color: '#ffffff', marginBottom: 0, fontWeight: 400, lineHeight: 1.7, opacity: 0.95 }}>
-              Ras Al Khaimah International Corporate Centre (RAK ICC) is your gateway to seamless international business operations, offering a secure and reputable jurisdiction for global entrepreneurs and investors. With flexible regulations, tax-free benefits, and a strong legal framework aligned with international standards, RAK ICC is ideal for asset protection, wealth management, international holding structures, and business expansion — all while ensuring confidentiality and operational efficiency.
-            </p>
+            Flexible workspace solutions for UAE business registration, offering smart office setups in Dubai with desk, chair, high-speed internet, and essential business services like mail handling, receptionist support, and meeting room access. Perfect for startups, freelancers, and SMEs looking for a cost-effective and professional launchpad in the UAE. </p>
           </div>
         </div>
       </section>  
@@ -259,9 +258,9 @@ export default function FlexiOfficesPage() {
           </div>
           <div style={{ flex: 1, minWidth: 220 }}>
             <div style={{ fontWeight: 700, fontSize: 16, marginBottom: 12 }}>Contact Info</div>
-            <div style={{ color: '#e6f2ef', fontSize: 14, marginBottom: 8 }}>Office 101, Business Bay Tower, Dubai, UAE</div>
-            <div style={{ color: '#e6f2ef', fontSize: 14, marginBottom: 8 }}>+971 4 324 4697</div>
-            <div style={{ color: '#e6f2ef', fontSize: 14, marginBottom: 8 }}>dubai@globalvisionservices.com</div>
+            <div style={{ color: '#e6f2ef', fontSize: 14, marginBottom: 8 }}> Office number 205, Ontario Tower, Business Bay, Dubai</div>
+            <div style={{ color: '#e6f2ef', fontSize: 14, marginBottom: 8 }}> +971 50 419 3507</div>
+            <div style={{ color: '#e6f2ef', fontSize: 14, marginBottom: 8 }}> info@www.globalvisionuae.com</div>
           </div>
         </div>
         <div style={{ borderTop: '1px solid #222', marginTop: 32, padding: '18px 0 0 0', textAlign: 'center', color: '#e6f2ef', fontSize: 13 }}>
